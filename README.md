@@ -13,6 +13,7 @@ All resources contained in this repository consist of materials presented at con
 - HARMONY 2015
 - ICSB 2014
 - ISMB 2016
+- SEED 2014
 
 ##Workshops:
 - SBOL Workshop 1 - 14
