@@ -9,10 +9,11 @@ All resources contained in this repository consist of materials presented at con
 
 ##Conferences:
 - IWBDA 2013, 2014, 2015, 2016
-- COMBINE 2015 - 2016
+- COMBINE 2014 - 2016
 - HARMONY 2015
 - ICSB 2014
 - ISMB 2016
+- SEED 2014
 
 ##Workshops:
 - SBOL Workshop 1 - 14
