@@ -15,5 +15,6 @@ All resources contained in this repository consist of materials presented at con
 - ISMB 2016
 - SEED 2014
 - SB 6.0
+
 ##Workshops:
 - SBOL Workshop 1 - 14
