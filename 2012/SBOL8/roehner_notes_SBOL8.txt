@@ -1,0 +1,273 @@
++++++++
+Day One
++++++++
+
+Discussion on Minimal Information
+---------------------------------
+
+1.  What distinguishes SBOL from GenBank?  The ability to do partial design.
+
+2.  That is why the minimal information of SBOL has a larger scope than what is covered by FASTA.
+
+3.  How to identify minimal information:  use case survey.
+
+4.  How do we know when we're done?  (a) Saturation of use, (b) No major issues or complaints from users, (c) One engineer can recreate another's design, (d) Automated design is possible.
+
+5.  However, many minimal information standards are for experimental science, which is not quite the same as trying to build things.
+
+6.  Where is expert knowledge encoded?  When it is encoded in software tools, we must consider that a smart tool would have different minimal information requirements than a dumb tool.  One must also realize that minimal information requirements may evolve over time.
+
+7.  It is unfortunate that we were unable to obtain feedback from IGEM teams that developed SBOL-compliant software.
+
+8.  At a bare minimum, we need a standard that can sufficiently describe the repressilator and toggle switch for their reproduction, since these are two of the first synthetic genetic networks.  They are also good test cases by virtue of the fact that different methods are required to measure their respective performances:  the repressilator requires microscopy while the toggle switch requires flow cytometry.
+
+Discussion on Adoption
+----------------------
+
+1.  What is adoption of SBOL?  (a) Software tools, (b) Online databases, (c) Journals, (d) Mental adoption or community awareness/acceptance.
+
+2.  Who is aware of SBOL?  Funding agencies are aware, but what about members of the synthetic biology community?
+
+3.  SBOL compliance stickers are an option raise community awareness.
+
+4.  Making SBOL a requirement for publication or funding could be a double-edged sword if we aren't ready with conversion tools and a simple how-to manual.
+
+5.  SBML has never been required in this manner, though the lack of such a requirement may have held SBML back at times.  
+
+6.  Who paid for the Protein Data Bank?  Funding agencies don't like paying for repositories any more.
+
+7.  Only the software teams used SBOL at IGEM.
+
+8.  DARPA has stated that SBOL compliance is required for software tools developed under its Living Foundries program, but so far only the Densmore lab has developed such tools.  Who will enforce the DARPA-SBOL mandate?  Has it been forgotten?
+
+9.  In industry, Amyris (and specifically Darryl) has implemented a SBOL converter, albeit internally so not many details are known.
+
+10.  The MIT registry can export SBOL but can't read it.
+
+11.  JBEI-ICE also exports SBOL, though Nathan also encountered a stack overflow bug in libSBOLj that was previously encountered by other SBOL developers.
+
+12.  We should look into the possibility of using IGEM 2013 as a platform to mine for use cases.  Libraries and repositories for SBOL need to be working/stable by then.
+
+13.  We need a significant technical win within the next year, while continuing to raise awareness via talks. 
+
+14.  The SBOL paper (led by Mike) should be out by 2013.
+
+15.  Companies won't adopt SBOL if their customers don't want it...JBEI has adopted SBOL but nobody currently uses its SBOL functionality.
+
+16.  We need more software tool linkage so that once one tool is successful its users will branch out to other tools.
+
+17.  Evren has written a plugin for Geneious to allow existing software tools to read and write SBOL.
+
+19.  There is still concern that members of the wet lab community think we are too computer science-oriented.  We need to develop the perception that we are grounded in the wet lab, beyond simply recruiting wet lab people to the SBOL community.
+
+20.  A big problem is that our software tools don't save people effort yet.
+
+21.  Training youth is important:  there are now approximately 14,000 alumni of IGEM.
+
+22.  Cesar's grand challenge:  create the world's largest repository of genetic designs with data sheets.  This would include parts and things made of parts.  
+
+23.  One way to start growing a grand repository would be to mine GenBank, though this would yield parts rather than designs.  Characterization strategy is to be determined.  The eventual goal is to reach a critical mass of designs and designers.
+
+24.  Is such a repository necessary when we already have the MIT registry, SYNBERC, JBEI, etc?
+
+25.  Cesar already has 40,000 parts in E. coli and yeast that are among the best characterized in the world.
+
+26.  There is concern over ownership of a grand repository.
+
+27.  There is a new research group within Autodesk that is interested in working on open source stuff.
+
+28.  It is very difficult to standardize characterization.
+
+29.  Cesar welcomes any help from the community in developing a grand repository.
+
+30.  Next year's IGEM will emphasize measurements, likely involving bacteria being sent to all participating labs for characterization of certain parameters.  The goal is to see how well results line up between labs.
+
+31.  At Newcastle, it took 2 years to line up the protocols to enable a cross-lab comparison of transcription in one species of bacteria, and these labs were contractually obligated to work together.  Perhaps IGEM could leverage their experiences.
+
+IGEM and SBOL, presented by Randy Rettberg
+------------------------------------------
+
+1.  The MIT registry was modeled after the TTL book.
+
+2.  Earliest data sheets of the registry were not being filled out with regards to many quantitative parameters, so these were removed.
+
+3.  There is a distinction between abstract parts and samples.  There is a management system for the latter and quality control is performed on what gets sent out.
+
+4.  In the beginning, there was no wiki, but now that there is, it is synched with the CGS database.
+
+5.  The registry has not provided a strict means of entering parameters, etc., in order to remain open to the many different means of presenting data, for example using pictures to display the results of an antibiotic resistance test.
+
+6.  The stated intention of the registry is to provide interesting parts that someone can use to build without going back to the original papers on said parts.  This is the democritization of synthetic biology, being able to use parts without being an expert or fully understanding all the available literature.
+
+7.  Granted, there are a number of junk parts within the registry, some without sequences, but there is movement to curate the registry.  There are an increasing number of highly documented parts, though this does not necessarily imply quality.
+
+8.  The current search tools for the registry are somewhat inadequate, which reflects the focus of some IGEM software teams on developing better search tools.  While the registry has gone 3-4 years without development during the move to new headquaters, the next few months will see increased software development.
+
+9.  On crowd-sourcing vs. curation:  a mix is best since crowd-sourcing is not always available when needed.
+
+10.  Problems with systemization of documentation:  (a) If you don't include a type of data in the scope of your system, then the default strategy is to put that data in the comments, and (b) your system is always with respect to some context that may not hold true for all data.
+
+11.  The registry's hierarchy is of parts followed by devices followed by systems.  Within devices, there are 3 interfaces:  the primary interface is intended function, the secondary is materials required and generated, and the tertiary is possible unexpected interactions with the host.
+
+12.  It is possible that registry entries will eventually be able to point to SBML files.
+
+13.  The registry will continue to develop and push outside the scope of SBOL if need be.  The SBOL community should respect the ability to store rich, non-minimal information.
+
+Discussion on Compliance
+------------------------
+
+1.  It should be easy to provide web-based services to convert from GenBank and FASTA to SBOL.
+
+2.  There should be a basic how-to manuscript on working with SBOL.
+
+3.  One working group will be responsible for developing SBOL visual and RDF/XML compliance combined, includes Doug, Cesar, Jackie, and Mike.
+
+SBOL in Action
+--------------
+
+Wetware Studio and Eugene, presented by Jackie and Ernst
+--------------------------------------------------------
+
+1.  Wetware studio is an iPod app for drag and drop composition of parts.
+
+2.  Case study was a petrobrick used for fatty acid synthesis.
+
+3.  Abstract design was drawn up in Wetware studio, then imported as SBOL into Eugene for the generation of conforming concrete devices.
+
+4.  There has been difficulty in using libSBOLj in Eugene to manage multiple SBOL data structures with the same URI.  (Problem in libSBOj has since been identified and will likely be fixed by Ernst soon.)
+
+JBEI Tools, presented by Nathan Hillson
+---------------------------------------
+
+1.  Using these tools, people submitting to ACS synthetic biology can convert from GenBank into SBOL and back.
+
+2.  There is a fair amount of information loss converting from GenBank to SBOL, including information on contributors, protein annotations, etc.
+
+3.  The tested file however, was an entire genome and perhaps the richest, most annotated GenBank file in existence.  The conversion certainly generated the largest SBOL file in existence.
+
+4.  Conversion to GenBank is also important for compatibility with BioPerl.
+
+Parts Validation Workflow, presented by Bryan
+---------------------------------------------
+
+1.  Bryan is a Ph.D. student with wet lab background in the Sauro lab who has been working with Mike.
+
+2.  He has identified three use cases for SBOL:  (a) going from a high-level design in a CAD tool to a low-level sequence in a DNA editor, (b) going from a cloning strategy in a DNA editor to a construction diagram in CAD, and (c) performing sequence analysis and verifying a construct in a DNA editor.
+
+Pigeon, presented by Swapnil
+----------------------------
+
+1.  Pigeon provides rapid picture generation for discussing modifying designs where it is needed most, for example during meetings.
+
+2.  It is possible to embed Pigeon pictures into GraphViz for the creation of construction diagrams.
+
++++++++
+Day Two
++++++++
+
+SBOL Extensions
+---------------
+
+Serialization
+-------------
+
+1.  Options for serializing extensions include fields dropped within their own namespaces in the main body of the SBOL file or placed immediately after it in a separate block.
+
+2.  Mike is in charge of presenting alternative strategies for serializing extensions.
+
+SBOL Visual
+-----------
+
+1.  Should SBOL visual compliance be strict in the sense that no non-SBOL glyphs are allowed or more relaxed in the sense the SBOL glyphs are used whenever possible?
+
+2.  There is concern about whether it's possible to have objective criteria for determining if stylized glyphs are SBOL visual approved.  Likely there is no such criteria, and if this is the case then it is necessary to have a person approve styles.
+
+3.  A StackOverflow-style voting system could be used to approve symbols.
+
+4.  Allowing people to use different symbols for the same type of DNA component may go against the grain of standardization.
+
+5.  It is possible to have a SBOL compliant renderer with a collection of font sets.  These font sets would map single SO types to single symbols, no Wingdings mapping of multiple SO types to the same symbol.
+
+6.  Fonts may be fixed width vs. non-fixed width, or circular vs. non-circular.  Metadata would be required to line symbols up properly, and labels would have to be dealt with at some point.
+
+7.  There is concern about the fact that the SBOL visual manuscript is being written before documentation is being presented to the community for voting.  Jackie intends to produce documentation by the end of November.
+
+Modeling Extension
+------------------
+
+1.  It is likely that some sort of pointer will be added from SBOL DNA components to SBML models and perhaps elements within SBML models.
+
+2.  We have brainstormed several strategies for reparameterizing models.  First, it is possible to use the hierarchial modeling package of SBML to reparameterize models by instantiating them as submodels within parent models that list replacements on the parameters within the submodels.  Another option is to store parameter sets in SBOL, either a minimal set of parameters agreed upon by the community or those identified within an ontology (perhaps SBO), then provide a means of mapping these parameters into existing models (XPath?).
+
+3.  Archive files could be used to store SBOL files alongside SBML files (and possibly other SBOL extension file types) that are referenced within the SBOL.  An archive strategy could also contribute to a sense of ownership for extension developers and eliminate the requirement that a parser understand all parts of a file.  Certain file types in the real world are zip archives.
+
+4.  Community members are encouraged to submit the types of models they use and the use cases for these models.
+
+Script
+------
+
+1.  SBOL visual and sBOL script are sorts of user interfaces to SBOL.
+
+2.  They should aid in the process of specifying designs.
+
+Regulation
+----------
+
+1.  It is clear that some sort of qualitative notion of regulation is required within SBOL.
+
+2.  One strategy is to create a regulation class that stores a list of influences between DNA components with influence types identified as negative, positive, or mixed (could potentially use SBO terms here).
+
+3.  A regulation working group was formed, including Ernst, Matt, and Nic.
+
+4.  Jackie and Cesar would likely be early adopters of regulation within SBOL visual.
+
+5.  Swapnil can provide a test case.
+
+Brainstorming
+-------------
+
+Cesar's Grand Challenge
+-----------------------
+
+1.  Challenge: create world's largest respository of DNA components.
+
+2.  Would be good for DARPA.
+
+3.  Need incentives for providing and retrieving data.
+
+4.  Karmella Haynes is interested in contributing to such a repository.
+
+5.  Should start workshop on characterization and measurement in synthetic biology.
+
+Priorities for Next Six Months
+------------------------------
+
+Starred priorities were voted most important
+
+1.  Measurements in synthetic biology workshop
+
+2.  ACS SynBio SBOL adoption/verification/compliance
+
+3.  Usability of libSBOLj (quality + bugs)
+
+4.  Regulatory extension *********
+
+5.  SBOL for Dummies documentation
+
+6.  Simple to use SBOL compliance tools *********
+
+7.  SBOL manuscripts submitted *********
+
+8.  Use cases for development of SBOL extensions
+
+9.  Website up to date
+
+10.  Extension implementation and deployment
+
+
+
+
+
+
+
+
