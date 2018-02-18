@@ -1,0 +1,31 @@
+SBOL Visual 2.0:
+
+Biological engineers often find it useful to communicate using diagrams. These diagrams can include information both about the structure of the nucleic acid sequences that they are engineering and about the functional relationships between sequence features and other molecular species. Some typical practices and conventions have begun to emerge for such diagrams. The Synthetic Biology Open Language Visual (SBOL Visual) has been developed as a standard for organizing and systematizing such conventions in order to produce a coherent language for expressing the structure and function of genetic designs. This talk details SBOL Visual version 2.0, which builds on the SBOL Visual 1.0 standard by expanding diagram syntax. The 2.0 syntax includes new functional interactions and categories of molecular species, which makes the relationship between diagrams and the SBOL data model explicit, supports families of symbol variants, and clarifies a number of requirements and best practices. Finally, we have significantly expanded the collection of diagram glyphs in the SBOL Visual 2.0 Distribution.
+
+———————
+Authors:
+
+Sid cox <sidcox@gmail.com>,
+"Madsen, Curtis" <ckmadsen@bu.edu>,
+"James McLaughlin (UG)" <j.a.mclaughlin@newcastle.ac.uk>,
+Tramy Nguyen <tramy.nguy@gmail.com>,
+Nicholas Roehner <nicholasroehner@gmail.com>,
+Bryan Bartley <bartleyba@sbolstandard.org>,
+Swapnil Bhatia <bhatia.swapnil@gmail.com>,
+Mike Bissell <bissell@amyris.com>,
+Kevin Clancy <kpclancy@hotmail.com>,
+Thomas Gorochowski <thomas.gorochowski@bristol.ac.uk>,
+Raik Gruenberg <raik.gruenberg@gmail.com>,
+Augustin Luna <lunaa@cbio.mskcc.org>,
+Nicolas Le Novere <n.lenovere@gmail.com>,
+Matthew Pocock <turingatemyhamster@gmail.com>,
+Herbert Sauro <hsauro@u.washington.edu>,
+John Sexton <john.t.sexton@rice.edu>,
+Guy-Bart Stan <g.stan@imperial.ac.uk>,
+Jeff Tabor <jeff.tabor@rice.edu>,
+Christopher Voigt <cavoigt@gmail.com>,
+Zach Zundel <zundel.zach@gmail.com>,
+Chris Myers <myers@ece.utah.edu>,
+Jacob Beal <jakebeal@ieee.org>,
+Anil Wipat <anil.wipat@newcastle.ac.uk>
+
