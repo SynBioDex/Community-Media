@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:sbol="http://sbols.org/v2#"
+   xmlns:sys-bio="http://sys-bio.org#">
+  <sbol:ComponentDefinition rdf:about="http://www.examples.org/ComponentDefinition/medium_terminator/1.0.0">
+    <sbol:displayId>medium_terminator</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://www.examples.org/ComponentDefinition/medium_terminator"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <sbol:sequence rdf:resource="http://www.examples.org/Sequence/medium_terminator/1.0.0"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://www.examples.org/ComponentDefinition/mfg/1.0.0">
+    <sbol:component>
+      <sbol:Component rdf:about="http://www.examples.org/ComponentDefinition/mfg/medium_terminator_0/1.0.0">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://www.examples.org/ComponentDefinition/medium_terminator/1.0.0"/>
+        <sbol:displayId>medium_terminator_0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://www.examples.org/ComponentDefinition/mfg/medium_terminator_0"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://www.examples.org/ComponentDefinition/mfg/mfg_cds_0/1.0.0">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://www.examples.org/ComponentDefinition/mfg_cds/1.0.0"/>
+        <sbol:displayId>mfg_cds_0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://www.examples.org/ComponentDefinition/mfg/mfg_cds_0"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://www.examples.org/ComponentDefinition/mfg/strong_promoter_0/1.0.0">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://www.examples.org/ComponentDefinition/strong_promoter/1.0.0"/>
+        <sbol:displayId>strong_promoter_0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://www.examples.org/ComponentDefinition/mfg/strong_promoter_0"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://www.examples.org/ComponentDefinition/mfg/weak_rbs_0/1.0.0">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://www.examples.org/ComponentDefinition/weak_rbs/1.0.0"/>
+        <sbol:displayId>weak_rbs_0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://www.examples.org/ComponentDefinition/mfg/weak_rbs_0"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:displayId>mfg</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://www.examples.org/ComponentDefinition/mfg"/>
+    <sbol:sequence rdf:resource="http://www.examples.org/Sequence/mfg/1.0.0"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.examples.org/ComponentDefinition/mfg/medium_terminator_annotation/1.0.0">
+        <sbol:component rdf:resource="http://www.examples.org/ComponentDefinition/mfg/medium_terminator_0/1.0.0"/>
+        <sbol:displayId>medium_terminator_annotation</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.examples.org/ComponentDefinition/mfg/medium_terminator_annotation/medium_terminator_annotation_range/1.0.0">
+            <sbol:displayId>medium_terminator_annotation_range</sbol:displayId>
+            <sbol:end>30</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="http://www.examples.org/ComponentDefinition/mfg/medium_terminator_annotation/medium_terminator_annotation_range"/>
+            <sbol:start>25</sbol:start>
+            <sbol:version>1.0.0</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="http://www.examples.org/ComponentDefinition/mfg/medium_terminator_annotation"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.examples.org/ComponentDefinition/mfg/mfg_cds_annotation/1.0.0">
+        <sbol:component rdf:resource="http://www.examples.org/ComponentDefinition/mfg/mfg_cds_0/1.0.0"/>
+        <sbol:displayId>mfg_cds_annotation</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.examples.org/ComponentDefinition/mfg/mfg_cds_annotation/mfg_cds_annotation_range/1.0.0">
+            <sbol:displayId>mfg_cds_annotation_range</sbol:displayId>
+            <sbol:end>24</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="http://www.examples.org/ComponentDefinition/mfg/mfg_cds_annotation/mfg_cds_annotation_range"/>
+            <sbol:start>19</sbol:start>
+            <sbol:version>1.0.0</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="http://www.examples.org/ComponentDefinition/mfg/mfg_cds_annotation"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.examples.org/ComponentDefinition/mfg/strong_promoter_annotation/1.0.0">
+        <sbol:component rdf:resource="http://www.examples.org/ComponentDefinition/mfg/strong_promoter_0/1.0.0"/>
+        <sbol:displayId>strong_promoter_annotation</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.examples.org/ComponentDefinition/mfg/strong_promoter_annotation/strong_promoter_annotation_range/1.0.0">
+            <sbol:displayId>strong_promoter_annotation_range</sbol:displayId>
+            <sbol:end>7</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="http://www.examples.org/ComponentDefinition/mfg/strong_promoter_annotation/strong_promoter_annotation_range"/>
+            <sbol:start>1</sbol:start>
+            <sbol:version>1.0.0</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="http://www.examples.org/ComponentDefinition/mfg/strong_promoter_annotation"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.examples.org/ComponentDefinition/mfg/weak_rbs_annotation/1.0.0">
+        <sbol:component rdf:resource="http://www.examples.org/ComponentDefinition/mfg/weak_rbs_0/1.0.0"/>
+        <sbol:displayId>weak_rbs_annotation</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.examples.org/ComponentDefinition/mfg/weak_rbs_annotation/weak_rbs_annotation_range/1.0.0">
+            <sbol:displayId>weak_rbs_annotation_range</sbol:displayId>
+            <sbol:end>18</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="http://www.examples.org/ComponentDefinition/mfg/weak_rbs_annotation/weak_rbs_annotation_range"/>
+            <sbol:start>8</sbol:start>
+            <sbol:version>1.0.0</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="http://www.examples.org/ComponentDefinition/mfg/weak_rbs_annotation"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="http://www.examples.org/ComponentDefinition/mfg/constraint1/1.0.0">
+        <sbol:displayId>constraint1</sbol:displayId>
+        <sbol:object rdf:resource="http://www.examples.org/ComponentDefinition/mfg/weak_rbs_0/1.0.0"/>
+        <sbol:persistentIdentity rdf:resource="http://www.examples.org/ComponentDefinition/mfg/constraint1"/>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="http://www.examples.org/ComponentDefinition/mfg/strong_promoter_0/1.0.0"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="http://www.examples.org/ComponentDefinition/mfg/constraint2/1.0.0">
+        <sbol:displayId>constraint2</sbol:displayId>
+        <sbol:object rdf:resource="http://www.examples.org/ComponentDefinition/mfg/mfg_cds_0/1.0.0"/>
+        <sbol:persistentIdentity rdf:resource="http://www.examples.org/ComponentDefinition/mfg/constraint2"/>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="http://www.examples.org/ComponentDefinition/mfg/weak_rbs_0/1.0.0"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="http://www.examples.org/ComponentDefinition/mfg/constraint3/1.0.0">
+        <sbol:displayId>constraint3</sbol:displayId>
+        <sbol:object rdf:resource="http://www.examples.org/ComponentDefinition/mfg/medium_terminator_0/1.0.0"/>
+        <sbol:persistentIdentity rdf:resource="http://www.examples.org/ComponentDefinition/mfg/constraint3"/>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="http://www.examples.org/ComponentDefinition/mfg/mfg_cds_0/1.0.0"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://www.examples.org/ComponentDefinition/mfg_cds/1.0.0">
+    <sbol:displayId>mfg_cds</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://www.examples.org/ComponentDefinition/mfg_cds"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequence rdf:resource="http://www.examples.org/Sequence/mfg_cds/1.0.0"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://www.examples.org/ComponentDefinition/strong_promoter/1.0.0">
+    <sbol:displayId>strong_promoter</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://www.examples.org/ComponentDefinition/strong_promoter"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:sequence rdf:resource="http://www.examples.org/Sequence/strong_promoter/1.0.0"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://www.examples.org/ComponentDefinition/weak_rbs/1.0.0">
+    <sbol:displayId>weak_rbs</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://www.examples.org/ComponentDefinition/weak_rbs"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+    <sbol:sequence rdf:resource="http://www.examples.org/Sequence/weak_rbs/1.0.0"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://www.examples.org/Sequence/medium_terminator/1.0.0">
+    <sbol:displayId>medium_terminator</sbol:displayId>
+    <sbol:elements>attcga</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://www.examples.org/Sequence/medium_terminator"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://www.examples.org/Sequence/mfg/1.0.0">
+    <sbol:displayId>mfg</sbol:displayId>
+    <sbol:elements>ggctgcaaattatataaaatgtaaattcga</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://www.examples.org/Sequence/mfg"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://www.examples.org/Sequence/mfg_cds/1.0.0">
+    <sbol:displayId>mfg_cds</sbol:displayId>
+    <sbol:elements>atgtaa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://www.examples.org/Sequence/mfg_cds"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://www.examples.org/Sequence/strong_promoter/1.0.0">
+    <sbol:displayId>strong_promoter</sbol:displayId>
+    <sbol:elements>ggctgca</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://www.examples.org/Sequence/strong_promoter"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://www.examples.org/Sequence/weak_rbs/1.0.0">
+    <sbol:displayId>weak_rbs</sbol:displayId>
+    <sbol:elements>aattatataaa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://www.examples.org/Sequence/weak_rbs"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:Sequence>
+</rdf:RDF>
