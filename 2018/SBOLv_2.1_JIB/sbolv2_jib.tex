@@ -1,0 +1,121 @@
+\documentclass{jib}
+\newlength{\platz}
+\setlength{\platz}{15pt}
+\RequirePackage{listings}
+
+%\usepackage{changepage} %test, TODO remove
+
+\lstset{%
+  basicstyle=\ttfamily,
+  fontadjust,
+  flexiblecolumns=true,
+  frame=L,
+  xleftmargin=15pt,
+  framesep=5pt,
+  emphstyle=\rmfamily\itshape}
+  
+
+\usepackage{pdfpages}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% JIB Header/Footer
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\jibvolume{XX} % insert volume
+\jibissue{X}   % insert issue
+\jibpages{XXX} % insert article ID
+\jibyear{XXXX} % insert year
+\makeHeaderFooter{} % leave as is
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Title Page
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{jibtitlepage}
+
+\jibtitle{Synthetic Biology Open Language Visual (SBOL Visual) \\ Version 2.1}
+
+
+%We did not provide author(s) nor author footnote(s), please complete as applicable.
+% Please make sure to use unique footnote characters for each author
+\jibauthor{Curtis Madsen\iref{bu},
+Angel Goni Moreno\iref{newcastle},
+Zachary Palchick\iref{zymergen},
+Umesh P\iref{kerala},
+Nicholas Roehner\iref{bbn}, 
+Bryan Bartley\iref{bbn}, 
+Swapnil Bhatia\iref{bu}, 
+Shyam Bhakta\iref{rice},
+Mike Bissell\iref{amyris},  
+Kevin Clancy\iref{thermo}, 
+Robert Sidney Cox\iref{kobe},
+Thomas Gorochowski\iref{bristol}, 
+Raik Grunberg\iref{kaust},
+Augustin Luna\iref{harvard}, 
+James McLaughlin\iref{newcastle},
+Tramy Nguyen\iref{utah}, 
+Nicolas Le Novere\iref{babraham}, 
+Matthew Pocock\iref{turing}, 
+Herbert Sauro\iref{uw}, 
+James Scott-Brown\iref{imperial},
+John T. Sexton\iref{rice}, 
+Guy-Bart Stan\iref{imperial}, 
+Jeffrey J. Tabor\iref{rice}, 
+Christopher A. Voigt\iref{mit}, 
+Zach Zundel\iref{utah}, 
+Chris Myers\iref{utah}, 
+Jacob Beal\iref{bbn},
+Anil Wipat\iref{newcastle}\jibauthorfootnote{*}{Correspondence should be addressed to:
+           \email{editors@sbolstandard.org}}}
+
+\addjibinstitution{bu}{Boston University, USA}
+\addjibinstitution{newcastle}{Newcastle University, UK}
+\addjibinstitution{zymergen}{Zymergen, USA}
+\addjibinstitution{kerala}{Kerala Technological University, India}
+\addjibinstitution{bbn}{Raytheon BBN Technologies, USA}
+\addjibinstitution{rice}{Rice University, USA}
+\addjibinstitution{amyris}{Amyris, Inc., USA}
+\addjibinstitution{thermo}{Thermo Fisher Scientific, USA}
+\addjibinstitution{kobe}{Kobe University, Japan}
+\addjibinstitution{bristol}{University of Bristol, UK}
+\addjibinstitution{kaust}{KAUST, Saudi Arabia}
+\addjibinstitution{harvard}{Harvard Medical School, USA}
+\addjibinstitution{utah}{University of Utah, USA}
+\addjibinstitution{babraham}{Babraham Institute, UK}
+\addjibinstitution{turing}{Turing Ate My Hamster, Ltd., UK}
+\addjibinstitution{uw}{University of Washington, USA}
+\addjibinstitution{imperial}{Imperial College, UK}
+\addjibinstitution{mit}{MIT, USA}
+
+
+\end{jibtitlepage}
+
+
+\begin{abstract}
+
+People who are engineering biological organisms often find it useful to communicate in
+diagrams, both about the structure of the nucleic acid sequences that they are engineering 
+and about the functional relationships between sequence features and other molecular species.
+%
+Some typical practices and conventions have begun to emerge for such
+diagrams.  The Synthetic Biology Open Language Visual (SBOL Visual) has been developed as a standard 
+for organizing and systematizing such
+conventions in order to produce a coherent language for expressing
+the structure and function 
+of genetic designs. 
+%
+This document details version 2.1 of SBOL Visual, which builds on the prior SBOL Visual 2.0 standard by
+expanding diagram syntax to include 
+methods for showing modular structure and mappings between elements of a system,
+interactions arrows that can split or join (with the glyph at the split or join indicating either superposition or a chemical process), 
+and adding new glyphs for indicating genomic context (e.g., integration into a plasmid or genome) and for stop codons.
+\end{abstract}
+
+% Include your PDF document
+\includepdf[pages=-, offset=80 -80]{SBOL_Visual_2_1.pdf}
+
+\end{document}
