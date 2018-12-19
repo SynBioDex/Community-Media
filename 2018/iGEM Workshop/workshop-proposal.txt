@@ -1,0 +1,29 @@
+2018 Call for Workshops for the iGEM Giant JamboreeWorkshop ApplicationThis is the 2018 Call for Workshops for the iGEM Giant Jamboree! Please fill out this form with as much detail as possible.We will review the applications and send out our decisions in late June. Please note: if your workshop is approved, you will be assigned to a 60­minute slot on either Friday or Saturday evening.1. Your name:
+Jacob Beal
+2. Your email:
+jakebeal@ieee.org
+3. If you are on an iGEM Committee, please note which one:
+Measurement Committee Chair
+4. Suggested workshop title:
+Software Tools for Synthetic Biology Workflows
+5. Please provide your current workshop description below. (If selected for a workshop, we will ask for a final description later in July for the Jamboree program.)
+
+Learn about recent developments in software tools and how they can be used to address common challenges in synthetic biology! We will start with a short introduction to SynBioHub, SBOLDesigner, and other tools. We'll then give a fun engineering problem to work on using the tools and in teams with fellow iGEMers. Best solution wins a prize!  Participants are strongly encouraged to bring a laptop with network access.
+6. Please provide information about the goal(s) of your workshop.
+
+The goal is to introduce iGEMers to state of the art design tools and to be a fun and silly challenge, similar to engineering challenge workshops in past iGEMs.
+
+7. Will you require a special set­up or materials for your workshop? Please provide any details you may have here.We'll need tables where it's easy for iGEMers to cluster around in teams, and will need decent network access.
+
+8. Workshop Format
+Interactive
+
+9. If possible, please provide more information about the format of your workshop. Ex: if you want to have a panel, do you have panelists in mind? What sort of interaction will you have with the audience/students?
+
+Students will first listen to a short lecture, then will be engaged in a design challenge, with organizers wandering to help.
+
+10. Day preference
+Saturday evening
+
+11. Room Setup
+Small round tables
