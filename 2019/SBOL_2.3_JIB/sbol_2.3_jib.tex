@@ -55,11 +55,13 @@ Robert Sidney Cox\iref{prospect},
 Thomas Gorochowski\iref{bristol}, 
 Raik Gr\"unberg\iref{kaust},
 Chris Macklin\iref{amyris},
+John Meng\ref{jgi},
 James McLaughlin\iref{newcastle},
 Tramy Nguyen\iref{utah}, 
 Matthew Pocock\iref{turing}, 
 Meher Samineni\iref{utah}, 
 James Scott-Brown\iref{imperial},
+Ysis Tarter\iref{amyris},
 Michael Zhang\iref{utah}, 
 Zhen Zhang\iref{utahstate},
 Zach Zundel\iref{utah}, 
@@ -86,13 +88,13 @@ Anil Wipat\iref{newcastle}\jibauthorfootnote{*}{Correspondence should be address
 \addjibinstitution{bristol}{University of Bristol, UK}
 \addjibinstitution{kaust}{KAUST, Saudi Arabia}
 \addjibinstitution{amyris}{Amyris, Inc., USA}
+\addjibinstitution{jgi}{DOE Joint Genome Institute, USA}
 \addjibinstitution{utah}{University of Utah, USA}
 \addjibinstitution{turing}{Turing Ate My Hamster, Ltd., UK}
 \addjibinstitution{imperial}{Imperial College, UK}
 \addjibinstitution{utahstate}{Utah State University, USA}
 \addjibinstitution{biocoder}{BioCoder Consulting, USA}
 \addjibinstitution{keele}{Keele University, UK}
-\addjibinstitution{jgi}{DOE Joint Genome Institute, USA}
 
 
 \end{jibtitlepage}
@@ -100,22 +102,22 @@ Anil Wipat\iref{newcastle}\jibauthorfootnote{*}{Correspondence should be address
 
 \begin{abstract}
 
-People who are engineering biological organisms often find it useful to communicate in
-diagrams, both about the structure of the nucleic acid sequences that they are engineering 
-and about the functional relationships between sequence features and other molecular species.
+Synthetic biology builds upon the techniques and successes of genetics, molecular biology, and metabolic engineering by applying engineering principles to the design of biological systems. The field still faces substantial challenges, including long development times, high rates of failure, and poor reproducibility. One method to ameliorate these problems would be to improve the exchange of information about designed systems between laboratories. The synthetic biology open language (SBOL) has been developed as a standard to support the specification and exchange of biological design information in synthetic biology, filling a need not satisfied by other pre-existing standards. 
 %
-Some typical practices and conventions have begun to emerge for such
-diagrams.  The Synthetic Biology Open Language Visual (SBOL Visual) has been developed as a standard 
-for organizing and systematizing such
-conventions in order to produce a coherent language for expressing
-the structure and function 
-of genetic designs. 
+This document details version 2.3.0 of SBOL, which builds upon version 2.2.0 published in last year's JIB special issue.
 %
-This document details version 2.1 of SBOL Visual, which builds on the prior SBOL Visual 2.0 standard by
-expanding diagram syntax to include 
-methods for showing modular structure and mappings between elements of a system,
-interactions arrows that can split or join (with the glyph at the split or join indicating either superposition or a chemical process), 
-and adding new glyphs for indicating genomic context (e.g., integration into a plasmid or genome) and for stop codons.
+In particular, SBOL 2.3.0 includes 
+means of succinctly representing sequence modifications, such as insertion, deletion, and replacement, % SEP 013 https://github.com/SynBioDex/SEPs/issues/28
+an extension to support organization and attachment of experimental data derived from designs, % SEP 021 https://github.com/SynBioDex/SEPs/issues/50
+and an extension for describing numerical parameters of design elements. % SEP 028 https://github.com/SynBioDex/SEPs/issues/62
+%
+The new version also includes
+typing of activities, % SEP 027 https://github.com/SynBioDex/SEPs/issues/60
+unambiguous locations for sequences with multiple encodings, % SEP 026 https://github.com/SynBioDex/SEPs/issues/59
+refinement of a number of validation rules, % https://github.com/SynBioDex/SBOL-specification/issues/180
+improved figures and examples,
+and clarification on a number of issues related to ontology terms. % https://github.com/SynBioDex/SBOL-specification/issues/193, https://github.com/SynBioDex/SBOL-specification/issues/192, https://github.com/SynBioDex/SBOL-specification/issues/208
+
 \end{abstract}
 
 This document does not contain technology or technical data controlled under either the U.S. International Traffic in Arms Regulations or the U.S. Export Administration Regulations.
