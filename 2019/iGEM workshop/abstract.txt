@@ -1,0 +1,5 @@
+Title: SBOL Visual: Diagrams for Synthetic Biology
+
+Abstract:
+How do you illustrate the biological systems that you are building? This workshop will show how to create clear, unambiguous, and easy to understand diagrams using SBOL Visual 2.
+
