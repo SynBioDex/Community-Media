@@ -1,0 +1,3 @@
+SBOL Visual Update
+
+This talk will present a brief update on recent progress in development of the SBOL Visual standard toward its upcoming version 2.2 release, along with discussion of important open challenges for future development.
