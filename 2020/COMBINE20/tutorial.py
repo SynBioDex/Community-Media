@@ -9,7 +9,6 @@ import sbol3
 # https://github.com/SynBioDex/Community-Media/blob/master/2020/IWBDA20/SBOL3-IWBDA-2020.pptx
 # ----------------------------------------------------------------------
 
-# TODO: Slide 32 for interactions
 # TODO: Slide 34 for constraints
 
 # Define a constant that is not defined in pySBOL3
@@ -115,5 +114,46 @@ for feature in i13504.features:
         feature.locations.append(loc)
 
 
-# Write the SBOL to file
+# --------------------------------------------------
+# Slide 32: GFP production from expression cassette
+# --------------------------------------------------
+
+# TODO: Is the type really SBO_FUNCTIONAL_ENTITY? It is not specified on the slide
+i13504_system = sbol3.Component('i13504_system', sbol3.SBO_FUNCTIONAL_ENTITY)
+doc.add(i13504_system)
+
+# Make a SubComponent referencing i13504
+subcomp1 = sbol3.SubComponent(i13504)
+i13504_system.features.append(subcomp1)
+
+# Make a component reference for the GFP in i13504
+gfp_feature = None
+for feature in i13504.features:
+    if isinstance(feature, sbol3.SubComponent) and feature.instance_of == gfp.identity:
+        gfp_feature = feature
+if gfp_feature is None:
+    raise Exception('Could not find GFP subcomponent')
+compref1 = sbol3.ComponentReference(subcomp1, gfp_feature)
+i13504_system.features.append(compref1)
+
+# GFP Protein
+gfp_protein = sbol3.Component('gfp_protein', sbol3.SBO_PROTEIN)
+i13504_system.features.append(sbol3.SubComponent(gfp_protein))
+
+# Make the template participation
+participation1 = sbol3.Participation([sbol3.SBO_TEMPLATE], compref1)
+
+# Make the product participation
+participation2 = sbol3.Participation([sbol3.SBO_PRODUCT], gfp_protein)
+
+# Make the interaction
+interaction1 = sbol3.Interaction([sbol3.SBO_GENETIC_PRODUCTION])
+interaction1.participations = [participation1, participation2]
+
+i13504_system.interactions.append(interaction1)
+
+
+# --------------------------------------------------
+# Finally, write the data out to a file
+# --------------------------------------------------
 doc.write('gfp.nt', sbol3.SORTED_NTRIPLES)
