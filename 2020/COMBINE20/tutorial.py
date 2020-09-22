@@ -9,8 +9,6 @@ import sbol3
 # https://github.com/SynBioDex/Community-Media/blob/master/2020/IWBDA20/SBOL3-IWBDA-2020.pptx
 # ----------------------------------------------------------------------
 
-# TODO: Slide 34 for constraints
-
 # Define a constant that is not defined in pySBOL3
 SO_ENGINEERED_REGION = sbol3.SO_NS + '0000804'
 SO_ASSEMBLY_SCAR = sbol3.SO_NS + '0001953'
@@ -118,7 +116,6 @@ for feature in i13504.features:
 # Slide 32: GFP production from expression cassette
 # --------------------------------------------------
 
-# TODO: Is the type really SBO_FUNCTIONAL_ENTITY? It is not specified on the slide
 i13504_system = sbol3.Component('i13504_system', sbol3.SBO_FUNCTIONAL_ENTITY)
 doc.add(i13504_system)
 
@@ -151,6 +148,45 @@ interaction1 = sbol3.Interaction([sbol3.SBO_GENETIC_PRODUCTION])
 interaction1.participations = [participation1, participation2]
 
 i13504_system.interactions.append(interaction1)
+
+
+# --------------------------------------------------
+# Slide 34: Example: concatenating & reusing components
+# --------------------------------------------------
+
+# Left hand side of slide: interlab16device1
+ilab16_dev1 = sbol3.Component('interlab16device1', sbol3.SBO_DNA)
+doc.add(ilab16_dev1)
+
+j23101 = sbol3.Component('j23101', sbol3.SBO_DNA)
+sc_j23101 = sbol3.SubComponent(j23101)
+ilab16_dev1.features.append(sc_j23101)
+
+sc_i13504_system = sbol3.SubComponent(i13504_system)
+ilab16_dev1.features.append(sc_i13504_system)
+
+cref1 = sbol3.ComponentReference(sc_i13504_system, subcomp1)
+ilab16_dev1.features.append(cref1)
+
+ilab16_dev1.constraints.append(sbol3.Constraint(sbol3.SBOL_MEETS,
+                                                sc_j23101, cref1))
+
+# Right hand side of slide: interlab16device2
+ilab16_dev2 = sbol3.Component('interlab16device2', sbol3.SBO_DNA)
+doc.add(ilab16_dev2)
+
+j23106 = sbol3.Component('j23106', sbol3.SBO_DNA)
+sc_j23106 = sbol3.SubComponent(j23106)
+ilab16_dev2.features.append(sc_j23106)
+
+sc_i13504_system = sbol3.SubComponent(i13504_system)
+ilab16_dev2.features.append(sc_i13504_system)
+
+cref2 = sbol3.ComponentReference(sc_i13504_system, subcomp1)
+ilab16_dev2.features.append(cref2)
+
+ilab16_dev2.constraints.append(sbol3.Constraint(sbol3.SBOL_MEETS,
+                                                sc_j23106, cref2))
 
 
 # --------------------------------------------------
