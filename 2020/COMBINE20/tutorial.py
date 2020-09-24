@@ -107,6 +107,10 @@ term.sequences.append(term_seq)
 
 # Add the location on to the B0015 SubComponent
 loc = sbol3.Range(i13504_seq, 746, 875)
+
+# pySBOL3 does not yet have an easy way to locate features based on
+# arbitrary criteria so we have to loop over the list to find the
+# SubComponent we are looking for
 for feature in i13504.features:
     if isinstance(feature, sbol3.SubComponent) and feature.instance_of == term.identity:
         feature.locations.append(loc)
@@ -123,13 +127,17 @@ doc.add(i13504_system)
 subcomp1 = sbol3.SubComponent(i13504)
 i13504_system.features.append(subcomp1)
 
-# Make a component reference for the GFP in i13504
+# pySBOL3 does not yet have an easy way to locate features based on
+# arbitrary criteria so we have to loop over the list to find the
+# SubComponent we are looking for
 gfp_feature = None
 for feature in i13504.features:
     if isinstance(feature, sbol3.SubComponent) and feature.instance_of == gfp.identity:
         gfp_feature = feature
 if gfp_feature is None:
     raise Exception('Could not find GFP subcomponent')
+
+# Make a component reference for the GFP in i13504
 compref1 = sbol3.ComponentReference(subcomp1, gfp_feature)
 i13504_system.features.append(compref1)
 
