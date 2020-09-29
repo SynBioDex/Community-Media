@@ -14,7 +14,7 @@ SO_ENGINEERED_REGION = sbol3.SO_NS + '0000804'
 SO_ASSEMBLY_SCAR = sbol3.SO_NS + '0001953'
 
 # Preamble
-sbol3.set_homespace('https://synbiohub.org/public/igem/')
+sbol3.set_namespace('https://synbiohub.org/public/igem/')
 doc = sbol3.Document()
 
 # --------------------------------------------------
