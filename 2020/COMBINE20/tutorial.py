@@ -143,13 +143,14 @@ i13504_system.features.append(compref1)
 
 # GFP Protein
 gfp_protein = sbol3.Component('gfp_protein', sbol3.SBO_PROTEIN)
-i13504_system.features.append(sbol3.SubComponent(gfp_protein))
+gfp_protein_sc = sbol3.SubComponent(gfp_protein)
+i13504_system.features.append(gfp_protein_sc)
 
 # Make the template participation
 participation1 = sbol3.Participation([sbol3.SBO_TEMPLATE], compref1)
 
 # Make the product participation
-participation2 = sbol3.Participation([sbol3.SBO_PRODUCT], gfp_protein)
+participation2 = sbol3.Participation([sbol3.SBO_PRODUCT], gfp_protein_sc)
 
 # Make the interaction
 interaction1 = sbol3.Interaction([sbol3.SBO_GENETIC_PRODUCTION])
