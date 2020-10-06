@@ -15,6 +15,7 @@ import org.sbolstandard.vocabulary.*;
  * October, 2020
  * This tutorial code goes with the slides at:
  * https://github.com/SynBioDex/Community-Media/blob/master/2020/COMBINE20/SBOL3-COMBINE-2020.pptx
+ * For more information see: https://goksel.github.io/libSBOLj3
  */
 public class GettingStartedTutorial {
 
