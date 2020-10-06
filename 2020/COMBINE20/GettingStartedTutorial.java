@@ -10,16 +10,16 @@ import org.sbolstandard.entity.Location.*;
 import org.sbolstandard.io.SBOLIO;
 import org.sbolstandard.util.SBOLGraphException;
 import org.sbolstandard.vocabulary.*;
+
 /**
  * COMBINE 2020 SBOL 3 Tutorial
  * October, 2020
  * This tutorial code goes with the slides at:
  * https://github.com/SynBioDex/Community-Media/blob/master/2020/COMBINE20/SBOL3-COMBINE-2020.pptx
- * For more information see: https://goksel.github.io/libSBOLj3
+ * For more information see: https://goksel.github.io/libSBOLj3/
  */
+
 public class GettingStartedTutorial {
-
-
 	public SBOLDocument runExample() throws SBOLGraphException, IOException
 	{
 		// Create a new SBOL document
@@ -87,41 +87,42 @@ public class GettingStartedTutorial {
 		Sequence i13504Sequence= (Sequence)doc.getIdentified(device.getSequences().get(0),Sequence.class);
 		
 		int start=i13504Sequence.getElements().length() + 1;
-    	int end=start + term_na.length()-1;
-    	i13504Sequence.setElements(i13504Sequence.getElements() + term_na);
-    	LocationBuilder locationBuilder=new Location.RangeLocationBuilder(start, end,i13504Sequence.getUri());
-    	locationBuilder.setOrientation(Orientation.inline);
-    	termSubComponent.createLocation(locationBuilder);
-    	System.out.println(String.format("Added the terminator subcomponent %s", term.getUri()));
-		
-    	//Iterate through sub components
-    	System.out.println("Subcomponents:");
-    	for (SubComponent subComp: device.getSubComponents())
-    	{
-    		System.out.println(subComp.getIsInstanceOf());
-    	}
-
-    	//Search for components using the SPARQL graph query language.
-    	List<Component> components=(List<Component>)doc.getIdentifieds("?identified a sbol:Component; sbol:role  SO:0000141; sbol:type SBO:0000251 .", Component.class);
-    	System.out.println("Graph query results:");
-    	for (Component component:components)
-    	{
-    		System.out.println("  " +  component.getDisplayId());
-    	}
+		int end=start + term_na.length()-1;
     	
-    	/* --------------------------------------------------
-		 Slide 32: GFP production from expression cassette
-		 -------------------------------------------------- */
-		 Component i13504_system=SBOLAPI.createComponent(doc,"i13504_system", ComponentType.FunctionalEntity.getUrl(), "i13504 system", null, Role.FunctionalCompartment);
-		 Component GFP=SBOLAPI.createComponent(doc, "GFP_protein", ComponentType.Protein.getUrl(), "GFP", "GFP", null); 
-		 SubComponent i13504SubComponent=SBOLAPI.addSubComponent(i13504_system, device);
-		 SubComponent gfpProteinSubComponent=SBOLAPI.addSubComponent(i13504_system, GFP);
+		i13504Sequence.setElements(i13504Sequence.getElements() + term_na);
+		LocationBuilder locationBuilder=new Location.RangeLocationBuilder(start, end,i13504Sequence.getUri());
+		locationBuilder.setOrientation(Orientation.inline);
+		termSubComponent.createLocation(locationBuilder);
+		System.out.println(String.format("Added the terminator subcomponent %s", term.getUri()));
+		
+		//Iterate through sub components
+		System.out.println("Subcomponents:");
+		for (SubComponent subComp: device.getSubComponents())
+		{
+			System.out.println(subComp.getIsInstanceOf());
+		}
+
+		//Search for components using the SPARQL graph query language.
+		List<Component> components=(List<Component>)doc.getIdentifieds("?identified a sbol:Component; sbol:role  SO:0000141; sbol:type SBO:0000251 .", Component.class);
+		System.out.println("Graph query results:");
+		for (Component component:components)
+		{
+			System.out.println("  " +  component.getDisplayId());
+		}
+    	
+		/* --------------------------------------------------
+ 		Slide 32: GFP production from expression cassette
+		-------------------------------------------------- */
+		Component i13504_system=SBOLAPI.createComponent(doc,"i13504_system", ComponentType.FunctionalEntity.getUrl(), "i13504 system", null, Role.FunctionalCompartment);
+		Component GFP=SBOLAPI.createComponent(doc, "GFP_protein", ComponentType.Protein.getUrl(), "GFP", "GFP", null); 
+		SubComponent i13504SubComponent=SBOLAPI.addSubComponent(i13504_system, device);
+		SubComponent gfpProteinSubComponent=SBOLAPI.addSubComponent(i13504_system, GFP);
 		  
-		 ComponentReference gfpCDSReference=i13504_system.createComponentReference(gfpSubComponent, i13504SubComponent);
+		ComponentReference gfpCDSReference=i13504_system.createComponentReference(gfpSubComponent, i13504SubComponent);
 					    
-		 Interaction interaction= i13504_system.createInteraction(Arrays.asList(InteractionType.GeneticProduction));
-    	 interaction.createParticipation(Arrays.asList(ParticipationRole.Template), gfpCDSReference.getUri());
-    	 interaction.createParticipation(Arrays.asList(ParticipationRole.Product), gfpProteinSubComponent.getUri());
+		Interaction interaction= i13504_system.createInteraction(Arrays.asList(InteractionType.GeneticProduction));
+		interaction.createParticipation(Arrays.asList(ParticipationRole.Template), gfpCDSReference.getUri());
+		interaction.createParticipation(Arrays.asList(ParticipationRole.Product), gfpProteinSubComponent.getUri());
 	    	
 		 /* --------------------------------------------------
 		  Slide 34: Example: concatenating & reusing components
