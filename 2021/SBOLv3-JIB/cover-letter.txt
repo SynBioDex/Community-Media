@@ -1,0 +1,4 @@
+Enclosed please find a submission of the SBOL Visual 3.0 standard, recently approved and released by the SBOL community. This submission is intended for inclusion in the upcoming "COMBINE standards and specifications" special issue.  Please note that, although the SBOL Visual 2.3 standard is already scheduled for inclusion in this special issue, we believe that is will be valuable to have both 2.3 and 3.0 appear. SBOL Visual 3.0 is a major version change, but there are still many users of the last major version: We have many SBOL Visual 2 users that will benefit from 2.3 updates, while we transition to developing new tools that support SBOL Visual 3 and SBOL 3 (very few tools exist right now that support these).  Thus, each specification is distinct and has important value. 
+
+Thanks,
+-Jake
