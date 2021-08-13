@@ -1,0 +1,24 @@
+Title: SBOL Version 3: Data Exchange throughout the Bioengineering Lifecycle
+
+Summary:
+The Synthetic Biology Open Language (SBOL) allows knowledge about biological designs to be captured using a machine-tractable, ontology-backed representation built on top of Semantic Web technologies. In addition to representing genetic designs, SBOL Version 3 can
+now be used to represent knowledge across multiple scales and throughout the entire synthetic biology workflow, from the specification of a single molecule or DNA fragment to tracking experimental workflows with complex samples or multicellular systems containing multiple interacting genetic circuits. This tutorial will discuss both the fundamentals of SBOL3 and experiences from its use in a variety of projects.
+
+This tutorial will provide the following to attendees:
+ - an introduction to the SBOL3 data model
+ - examples of workflows built on SBOL3
+ - hands-on experience with SBOL3 libraries and related tools
+ - an understanding of how to build extensions using SBOL Factory
+
+Presenters: 
+Jacob Beal <jakebeal@ieee.org>
+Bryan Bartley <bryan.a.bartley@raytheon.com>
+Goksel Misirli <g.misirli@keele.ac.uk>
+Tom Mitchell <tom.mitchell@raytheon.com>
+
+Technical support:
+Nothing but a zoom link for a 2-hour workshop.
+
+
+This work was partially supported by Air Force Research Laboratory (AFRL) and DARPA contract FA8750-17-C-0184 (H.S., J.B.). This document does not contain technology or technical data controlled under either U.S. International Traffic in Arms Regulation or
+U.S. Export Administration Regulations. Views, opinions, and/or findings expressed are those of the author(s) and should not be interpreted as representing the official views or policies of the Department of Defense or the U.S. Government.
