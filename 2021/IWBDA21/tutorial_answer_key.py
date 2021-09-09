@@ -86,7 +86,7 @@ seq_13504 = ('aaagaggagaaatactagatgcgtaaaggagaagaacttttcactggagttgtcccaattcttgtt
 
 i13504_seq = sbol3.Sequence('I13504_sequence')
 i13504_seq.elements = seq_13504
-i13504_seq.encoding = sbol3.SBOL_IUPAC_DNA
+i13504_seq.encoding = sbol3.IUPAC_DNA_ENCODING
 i13504.sequences.append(i13504_seq)
 
 loc = sbol3.Range(i13504_seq, 738, 745)
@@ -102,7 +102,7 @@ seq_B0015 = ('ccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgt
 
 term_seq = sbol3.Sequence('B0015_sequence')
 term_seq.elements = seq_B0015
-term_seq.encoding = sbol3.SBOL_IUPAC_DNA
+term_seq.encoding = sbol3.IUPAC_DNA_ENCODING
 term.sequences.append(term_seq)
 
 # Add the location on to the B0015 SubComponent
