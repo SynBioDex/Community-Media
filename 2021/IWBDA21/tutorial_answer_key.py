@@ -27,10 +27,10 @@ doc = sbol3.Document()
 # type: SBO:0000251 (DNA)
 # role: SO:0000804 (Engineered Region)
 print('Creating GFP expression cassette')
-i13504 = sbol3.Component('I13504', sbol3.SBO_DNA)
-i13504.name = 'iGEM 2016 interlab reporter'
-i13504.description = 'GFP expression cassette used for 2016 iGEM interlab'
-i13504.roles.append(SO_ENGINEERED_REGION)
+i13504 = sbol3.Component('I13504', sbol3.SBO_DNA,
+                         name='iGEM 2016 interlab reporter',
+                         description='GFP expression cassette used for 2016 iGEM interlab',
+                         roles=[SO_ENGINEERED_REGION])
 
 # Add the GFP expression cassette to the document
 doc.add(i13504)
