@@ -1,0 +1,1 @@
+This session is an interactive, open-ended session for participants to ask SBOL library developers any questions they have regarding the use, features, and best practices of the SBOL libraries libSBOLj3 (Java) and pySBOL3 (Python).
