@@ -1,0 +1,7 @@
+pySBOL3 Lightning Talk Abstract
+-------------------------------
+
+This talk announces the release of pySBOL3 1.0, the first stable release of a Python implementation of SBOL3. pySBOL3 is a native Python package that provides the ability to create, read, modify, and write SBOL3 documents. pySBOL3 is in use in a number of synthetic biology projects.
+
+
+This document does not contain technology or Technical Data controlled under either the U.S. International Traffic in Arms Regulations or the U.S. Export Administration Regulations.
