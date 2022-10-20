@@ -1,109 +1,204 @@
-import sbol3
+#!/usr/bin/env python
+# coding: utf-8
 
-# ----------------------------------------------------------------------
-# COMBINE 2020 SBOL 3 Tutorial
-# October, 2020
-#
+# # IWBDA 2022 SBOL 3 Tutorial
+# 
+# ### October 2022
 # This tutorial code goes with the slides at:
-#
-# https://github.com/SynBioDex/Community-Media/blob/master/2020/COMBINE20/SBOL3-COMBINE-2020.pptx
-# ----------------------------------------------------------------------
+# 
+# https://github.com/SynBioDex/Community-Media/blob/master/2022/IWBDA22/sbol3-workshop/pySBOL3-IWBDA-2022.pptx
 
-# Define a constant that is not defined in pySBOL3
-SO_ENGINEERED_REGION = sbol3.SO_NS + '0000804'
-SO_ASSEMBLY_SCAR = sbol3.SO_NS + '0001953'
+# Import the modules
+
+# In[ ]:
+
+
+from sbol3 import *
+from sbol_utilities.calculate_sequences import compute_sequence
+from sbol_utilities.component import *
+import tyto
+
 
 # Set the default namespace for new objects and create a document
 
+# In[ ]:
 
-# --------------------------------------------------
-# Slide 26: GFP expression cassette
-# --------------------------------------------------
-# Component
-# identity: iGEM#I13504
-# name: "iGEM 2016 interlab reporter"
-# description: "GFP expression cassette used for 2016 iGEM interlab"
-# type: SBO:0000251 (DNA)
-# role: SO:0000804 (Engineered Region)
+
+
+
+
+# # Slide 26: GFP expression cassette
+# Construct a simple part and add it to the Document.
+# 
+# Component  
+# identity: iGEM#I13504  
+# name: "iGEM 2016 interlab reporter"  
+# description: "GFP expression cassette used for 2016 iGEM interlab"  
+# type: SBO:0000251 (DNA)  
+# role: SO:0000804 (Engineered Region)  
+# 
+# Which properties are required?  Which properties behave as lists?
+
+# In[ ]:
+
+
+
 
 
 # Add the GFP expression cassette to the document
 
-
-# --------------------------------------------------
-# Slide 28: expression cassette parts
-# --------------------------------------------------
-# Add the RBS subcomponent
-
-
-# Add the GFP subcomponent
-
-
-# Add the terminator
+# In[ ]:
 
 
 
-# --------------------------------------------------
-# Slide 30: Location of a SubComponent
-# --------------------------------------------------
-
-# BBa_I13504_sequence (875 bp)
-# See https://synbiohub.org/public/igem/BBa_I13504_sequence/1
 
 
+# # Slide 28: expression cassette parts
+# Here we will create a part-subpart hierarchy. We will also start using (SBOL-Utilities)[https://github.com/synbiodex/sbol-utilities] to make it easier to create parts and to assemble those parts into a hierarchy.
+# 
+# First, create the RBS component...
+# 
+# Component  
+# identity: B0034  
+# name: RBS (Elowitz 1999)
 
-# BBa_B0015_sequence (129 bp)
-# From https://synbiohub.org/public/igem/BBa_B0015_sequence/1
-
-
-# Add the location on to the B0015 SubComponent
-
-
-# pySBOL3 does not yet have an easy way to locate features based on
-# arbitrary criteria so we have to loop over the list to find the
-# SubComponent we are looking for
+# In[ ]:
 
 
 
-# --------------------------------------------------
-# Slide 32: GFP production from expression cassette
-# --------------------------------------------------
 
 
-# Make a SubComponent referencing i13504
+# Next, create the GFP component
+# 
+# identity: E0040  
+# name: GFP
 
-
-# pySBOL3 does not yet have an easy way to locate features based on
-# arbitrary criteria so we have to loop over the list to find the
-# SubComponent we are looking for
-
-
-# Make a component reference for the GFP in i13504
-
-
-# GFP Protein
-
-
-# Make the template participation
-
-
-# Make the product participation
-
-
-# Make the interaction
+# In[ ]:
 
 
 
-# --------------------------------------------------
-# Slide 34: Example: concatenating & reusing components
-# --------------------------------------------------
-
-# Left hand side of slide: interlab16device1
 
 
-# Right hand side of slide: interlab16device2
+# Finally, create the terminator
+# 
+# identity: B0015  
+# name: double terminator
+
+# In[ ]:
 
 
-# --------------------------------------------------
-# Finally, write the data out to a file
-# --------------------------------------------------
+
+
+
+# Now construct the part-subpart hierarchy and order the parts: RBS before CDS, CDS before terminator
+
+# In[ ]:
+
+
+
+
+
+# # Slide 30: Location of a SubComponent
+# 
+# Here we add base coordinates to SubComponents.
+# 
+# But first, use `compute_sequence` to get the full sequence for the BBa_I13504 device 
+# 
+# See http://parts.igem.org/Part:BBa_I13504
+
+# In[ ]:
+
+
+
+
+
+# `compute_sequence` added `Range`s to the subcomponents. Check one of those ranges to see that the values are what we expect.
+# 
+# The expected range of the terminator is (733, 861).
+
+# In[ ]:
+
+
+
+
+
+# # Slide 32: GFP production from expression cassette
+# In this example, we will create a system representation that includes DNA, proteins, and interactions.
+# 
+# First, create the system representation.  `functional_component` creates this for us.
+# 
+# Component  
+# identity: i13504_system
+
+# In[ ]:
+
+
+
+
+
+# The system has two physical subcomponents, the expression construct and the expressed GFP protein. We already created the expression construct. Now create the GFP protein.
+# `ed_protein` creates an "externally defined protein"
+
+# In[ ]:
+
+
+
+
+
+# Now create the part-subpart hierarchy.
+
+# In[ ]:
+
+
+
+
+
+# Use a ComponentReference to link SubComponents in a multi-level hierarchy
+
+# In[ ]:
+
+
+
+
+
+# Make the Interaction.
+# 
+# Interaction:  
+# type: SBO:0000589 (genetic production)
+# 
+# Participation:  
+# role: SBO:0000645 (template)  
+# participant: e0040_reference  
+# 
+# Participation:  
+# role: SBO:0000011 (product)  
+# participant: gfp_subcomponent  
+
+# In[ ]:
+
+
+
+
+
+# ## Validate the document
+# `Document.validate` returns a validation report. If the report is empty, the document is valid.
+
+# In[ ]:
+
+
+report = doc.validate()
+if report:
+    print('Document is not valid')
+    print(f'Document has {len(report.errors)} errors')
+    print(f'Document has {len(report.warnings)} warnings')
+else:
+    print('Document is valid')
+
+
+# # Finally, write the data out to a file
+
+# In[ ]:
+
+
+
+

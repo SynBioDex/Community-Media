@@ -1,203 +1,217 @@
-import sbol3
+#!/usr/bin/env python
+# coding: utf-8
 
-# ----------------------------------------------------------------------
-# COMBINE 2020 SBOL 3 Tutorial
-# October, 2020
-#
+# # IWBDA 2022 SBOL 3 Tutorial
+# 
+# ### October 2022
 # This tutorial code goes with the slides at:
-#
-# https://github.com/SynBioDex/Community-Media/blob/master/2020/IWBDA20/SBOL3-IWBDA-2020.pptx
-# ----------------------------------------------------------------------
+# 
+# https://github.com/SynBioDex/Community-Media/blob/master/2022/IWBDA22/sbol3-workshop/pySBOL3-IWBDA-2022.pptx
 
-# Define a constant that is not defined in pySBOL3
-SO_ENGINEERED_REGION = sbol3.SO_NS + '0000804'
-SO_ASSEMBLY_SCAR = sbol3.SO_NS + '0001953'
+# Import the modules
+
+# In[ ]:
+
+
+from sbol3 import *
+from sbol_utilities.calculate_sequences import compute_sequence
+from sbol_utilities.component import *
+import tyto
+
 
 # Set the default namespace for new objects and create a document
-sbol3.set_namespace('https://synbiohub.org/public/igem/')
-doc = sbol3.Document()
 
-# --------------------------------------------------
-# Slide 26: GFP expression cassette
-# --------------------------------------------------
-# Component
-# identity: iGEM#I13504
-# name: "iGEM 2016 interlab reporter"
-# description: "GFP expression cassette used for 2016 iGEM interlab"
-# type: SBO:0000251 (DNA)
-# role: SO:0000804 (Engineered Region)
-print('Creating GFP expression cassette')
-i13504 = sbol3.Component('I13504', sbol3.SBO_DNA,
-                         name='iGEM 2016 interlab reporter',
-                         description='GFP expression cassette used for 2016 iGEM interlab',
-                         roles=[SO_ENGINEERED_REGION])
+# In[ ]:
+
+
+set_namespace('https://synbiohub.org/public/igem/')
+doc = Document()
+
+
+# # Slide 26: GFP expression cassette
+# Construct a simple part and add it to the Document.
+# 
+# Component  
+# identity: iGEM#I13504  
+# name: "iGEM 2016 interlab reporter"  
+# description: "GFP expression cassette used for 2016 iGEM interlab"  
+# type: SBO:0000251 (DNA)  
+# role: SO:0000804 (Engineered Region)  
+# 
+# Which properties are required?  Which properties behave as lists?
+
+# In[ ]:
+
+
+i13504 = Component('i13504', SBO_DNA)
+i13504.name = 'iGEM 2016 interlab reporter'
+i13504.description = 'GFP expression cassette used for 2016 iGEM interlab study'
+i13504.roles.append(tyto.SO.engineered_region)
+
 
 # Add the GFP expression cassette to the document
+
+# In[ ]:
+
+
 doc.add(i13504)
-print(f'Created GFP expression cassette {i13504.identity}')
-
-# --------------------------------------------------
-# Slide 28: expression cassette parts
-# --------------------------------------------------
-# Add the RBS subcomponent
-rbs = sbol3.Component('B0034', sbol3.SBO_DNA)
-rbs.name = 'RBS (Elowitz 1999)'
-rbs.roles.append(sbol3.SO_RBS)
-doc.add(rbs)
-i13504.features.append(sbol3.SubComponent(rbs))
-print(f'Added RBS SubComponent {rbs.identity}')
-
-# Add the GFP subcomponent
-gfp = sbol3.Component('E0040', sbol3.SBO_DNA)
-gfp.name = 'GFP'
-gfp.roles.append(sbol3.SO_CDS)
-doc.add(gfp)
-i13504.features.append(sbol3.SubComponent(gfp))
-print(f'Added GFP SubComponent {gfp.identity}')
-
-# Add the terminator
-term = sbol3.Component('B0015', sbol3.SBO_DNA)
-term.name = 'double terminator'
-term.roles.append(sbol3.SO_TERMINATOR)
-doc.add(term)
-i13504.features.append(sbol3.SubComponent(term))
-print(f'Added Terminator SubComponent {term.identity}')
 
 
-# --------------------------------------------------
-# Slide 30: Location of a SubComponent
-# --------------------------------------------------
+# # Slide 28: expression cassette parts
+# Here we will create a part-subpart hierarchy. We will also start using (SBOL-Utilities)[https://github.com/synbiodex/sbol-utilities] to make it easier to create parts and to assemble those parts into a hierarchy.
+# 
+# First, create the RBS component...
+# 
+# Component  
+# identity: B0034  
+# name: RBS (Elowitz 1999)
 
-# BBa_I13504_sequence (875 bp)
-# See https://synbiohub.org/public/igem/BBa_I13504_sequence/1
-seq_13504 = ('aaagaggagaaatactagatgcgtaaaggagaagaacttttcactggagttgtcccaattcttgttgaat'
-             'tagatggtgatgttaatgggcacaaattttctgtcagtggagagggtgaaggtgatgcaacatacggaaa'
-             'acttacccttaaatttatttgcactactggaaaactacctgttccatggccaacacttgtcactactttc'
-             'ggttatggtgttcaatgctttgcgagatacccagatcatatgaaacagcatgactttttcaagagtgcca'
-             'tgcccgaaggttatgtacaggaaagaactatatttttcaaagatgacgggaactacaagacacgtgctga'
-             'agtcaagtttgaaggtgatacccttgttaatagaatcgagttaaaaggtattgattttaaagaagatgga'
-             'aacattcttggacacaaattggaatacaactataactcacacaatgtatacatcatggcagacaaacaaa'
-             'agaatggaatcaaagttaacttcaaaattagacacaacattgaagatggaagcgttcaactagcagacca'
-             'ttatcaacaaaatactccaattggcgatggccctgtccttttaccagacaaccattacctgtccacacaa'
-             'tctgccctttcgaaagatcccaacgaaaagagagaccacatggtccttcttgagtttgtaacagctgctg'
-             'ggattacacatggcatggatgaactatacaaataataatactagagccaggcatcaaataaaacgaaagg'
-             'ctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacac'
-             'tggctcaccttcgggtgggcctttctgcgtttata')
-
-i13504_seq = sbol3.Sequence('I13504_sequence')
-i13504_seq.elements = seq_13504
-i13504_seq.encoding = sbol3.IUPAC_DNA_ENCODING
-i13504.sequences.append(i13504_seq)
-
-loc = sbol3.Range(i13504_seq, 738, 745)
-i13504_seq_feat = sbol3.SequenceFeature([loc])
-i13504_seq_feat.roles = [SO_ASSEMBLY_SCAR]
-i13504.features.append(i13504_seq_feat)
+# In[ ]:
 
 
-# BBa_B0015_sequence (129 bp)
-# From https://synbiohub.org/public/igem/BBa_B0015_sequence/1
-seq_B0015 = ('ccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggt'
-             'gaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata')
-
-term_seq = sbol3.Sequence('B0015_sequence')
-term_seq.elements = seq_B0015
-term_seq.encoding = sbol3.IUPAC_DNA_ENCODING
-term.sequences.append(term_seq)
-
-# Add the location on to the B0015 SubComponent
-loc = sbol3.Range(i13504_seq, 746, 875)
-
-# pySBOL3 does not yet have an easy way to locate features based on
-# arbitrary criteria so we have to loop over the list to find the
-# SubComponent we are looking for
-for feature in i13504.features:
-    if isinstance(feature, sbol3.SubComponent) and feature.instance_of == term.identity:
-        feature.locations.append(loc)
+b0034, b0034_seq = doc.add(rbs('B0034', sequence='aaagaggagaaa', name='RBS (Elowitz 1999)'))
 
 
-# --------------------------------------------------
-# Slide 32: GFP production from expression cassette
-# --------------------------------------------------
+# Next, create the GFP component
+# 
+# identity: E0040  
+# name: GFP
 
-i13504_system = sbol3.Component('i13504_system', sbol3.SBO_FUNCTIONAL_ENTITY)
+# In[ ]:
+
+
+e0040_sequence = 'atgcgtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcacaaattttctgtcagtggagagggtgaaggtgatgcaacatacggaaaacttacccttaaatttatttgcactactggaaaactacctgttccatggccaacacttgtcactactttcggttatggtgttcaatgctttgcgagatacccagatcatatgaaacagcatgactttttcaagagtgccatgcccgaaggttatgtacaggaaagaactatatttttcaaagatgacgggaactacaagacacgtgctgaagtcaagtttgaaggtgatacccttgttaatagaatcgagttaaaaggtattgattttaaagaagatggaaacattcttggacacaaattggaatacaactataactcacacaatgtatacatcatggcagacaaacaaaagaatggaatcaaagttaacttcaaaattagacacaacattgaagatggaagcgttcaactagcagaccattatcaacaaaatactccaattggcgatggccctgtccttttaccagacaaccattacctgtccacacaatctgccctttcgaaagatcccaacgaaaagagagaccacatggtccttcttgagtttgtaacagctgctgggattacacatggcatggatgaactatacaaataataa'
+e0040, _ = doc.add(cds('E0040', sequence=e0040_sequence, name='GFP'))
+
+
+# Finally, create the terminator
+# 
+# identity: B0015  
+# name: double terminator
+
+# In[ ]:
+
+
+b0015_sequence = 'ccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata'
+b0015, _ = doc.add(terminator('B0015', sequence=b0015_sequence, name='double terminator'))
+
+
+# Now construct the part-subpart hierarchy and order the parts: RBS before CDS, CDS before terminator
+
+# In[ ]:
+
+
+order(b0034, e0040, i13504)
+order(e0040, b0015, i13504)
+
+
+# # Slide 30: Location of a SubComponent
+# 
+# Here we add base coordinates to SubComponents.
+# 
+# But first, use `compute_sequence` to get the full sequence for the BBa_I13504 device 
+# 
+# See http://parts.igem.org/Part:BBa_I13504
+
+# In[ ]:
+
+
+i13504_seq = compute_sequence(i13504)
+
+
+# `compute_sequence` added `Range`s to the subcomponents. Check one of those ranges to see that the values are what we expect.
+# 
+# The expected range of the terminator is (733, 861).
+
+# In[ ]:
+
+
+b0015_subcomponent = next(f for f in i13504.features if f.instance_of == b0015.identity)
+b0015_range = b0015_subcomponent.locations[0]
+print(f'Range of {b0015.display_name}: ({b0015_range.start}, {b0015_range.end})')
+
+
+# # Slide 32: GFP production from expression cassette
+# In this example, we will create a system representation that includes DNA, proteins, and interactions.
+# 
+# First, create the system representation.  `functional_component` creates this for us.
+# 
+# Component  
+# identity: i13504_system
+
+# In[ ]:
+
+
+i13504_system = functional_component('i13504_system')
 doc.add(i13504_system)
 
-# Make a SubComponent referencing i13504
-subcomp1 = sbol3.SubComponent(i13504)
-i13504_system.features.append(subcomp1)
 
-# pySBOL3 does not yet have an easy way to locate features based on
-# arbitrary criteria so we have to loop over the list to find the
-# SubComponent we are looking for
-gfp_feature = None
-for feature in i13504.features:
-    if isinstance(feature, sbol3.SubComponent) and feature.instance_of == gfp.identity:
-        gfp_feature = feature
-if gfp_feature is None:
-    raise Exception('Could not find GFP subcomponent')
+# The system has two physical subcomponents, the expression construct and the expressed GFP protein. We already created the expression construct. Now create the GFP protein.
+# `ed_protein` creates an "externally defined protein"
 
-# Make a component reference for the GFP in i13504
-compref1 = sbol3.ComponentReference(subcomp1, gfp_feature)
-i13504_system.features.append(compref1)
-
-# GFP Protein
-gfp_protein = sbol3.Component('gfp_protein', sbol3.SBO_PROTEIN)
-i13504_system.features.append(sbol3.SubComponent(gfp_protein))
-
-# Make the template participation
-participation1 = sbol3.Participation([sbol3.SBO_TEMPLATE], compref1)
-
-# Make the product participation
-participation2 = sbol3.Participation([sbol3.SBO_PRODUCT], gfp_protein)
-
-# Make the interaction
-interaction1 = sbol3.Interaction([sbol3.SBO_GENETIC_PRODUCTION])
-interaction1.participations = [participation1, participation2]
-
-i13504_system.interactions.append(interaction1)
+# In[ ]:
 
 
-# --------------------------------------------------
-# Slide 34: Example: concatenating & reusing components
-# --------------------------------------------------
-
-# Left hand side of slide: interlab16device1
-ilab16_dev1 = sbol3.Component('interlab16device1', sbol3.SBO_FUNCTIONAL_ENTITY)
-doc.add(ilab16_dev1)
-
-j23101 = sbol3.Component('j23101', sbol3.SBO_DNA)
-sc_j23101 = sbol3.SubComponent(j23101)
-ilab16_dev1.features.append(sc_j23101)
-
-sc_i13504_system = sbol3.SubComponent(i13504_system)
-ilab16_dev1.features.append(sc_i13504_system)
-
-cref1 = sbol3.ComponentReference(sc_i13504_system, subcomp1)
-ilab16_dev1.features.append(cref1)
-
-ilab16_dev1.constraints.append(sbol3.Constraint(sbol3.SBOL_MEETS,
-                                                sc_j23101, cref1))
-
-# Right hand side of slide: interlab16device2
-ilab16_dev2 = sbol3.Component('interlab16device2', sbol3.SBO_FUNCTIONAL_ENTITY)
-doc.add(ilab16_dev2)
-
-j23106 = sbol3.Component('j23106', sbol3.SBO_DNA)
-sc_j23106 = sbol3.SubComponent(j23106)
-ilab16_dev2.features.append(sc_j23106)
-
-sc_i13504_system = sbol3.SubComponent(i13504_system)
-ilab16_dev2.features.append(sc_i13504_system)
-
-cref2 = sbol3.ComponentReference(sc_i13504_system, subcomp1)
-ilab16_dev2.features.append(cref2)
-
-ilab16_dev2.constraints.append(sbol3.Constraint(sbol3.SBOL_MEETS,
-                                                sc_j23106, cref2))
+gfp = add_feature(i13504_system, ed_protein('https://www.fpbase.org/protein/gfpmut3/', name='GFP'))
 
 
-# --------------------------------------------------
-# Finally, write the data out to a file
-# --------------------------------------------------
-doc.write('gfp.nt', sbol3.SORTED_NTRIPLES)
+# Now create the part-subpart hierarchy.
+
+# In[ ]:
+
+
+i13504_subcomponent = add_feature(i13504_system, i13504)
+
+
+# Use a ComponentReference to link SubComponents in a multi-level hierarchy
+
+# In[ ]:
+
+
+e0040_subcomponent = next(f for f in i13504.features if f.instance_of == e0040.identity)
+e0040_reference = ComponentReference(i13504_subcomponent, e0040_subcomponent)
+i13504_system.features.append(e0040_reference)
+
+
+# Make the Interaction.
+# 
+# Interaction:  
+# type: SBO:0000589 (genetic production)
+# 
+# Participation:  
+# role: SBO:0000645 (template)  
+# participant: e0040_reference  
+# 
+# Participation:  
+# role: SBO:0000011 (product)  
+# participant: gfp_subcomponent  
+
+# In[ ]:
+
+
+add_interaction(tyto.SBO.genetic_production,
+                participants={gfp: tyto.SBO.product, e0040_reference: tyto.SBO.template})
+
+
+# ## Validate the document
+# `Document.validate` returns a validation report. If the report is empty, the document is valid.
+
+# In[ ]:
+
+
+report = doc.validate()
+if report:
+    print('Document is not valid')
+    print(f'Document has {len(report.errors)} errors')
+    print(f'Document has {len(report.warnings)} warnings')
+else:
+    print('Document is valid')
+
+
+# # Finally, write the data out to a file
+
+# In[ ]:
+
+
+doc.write('i13504.nt', file_format=SORTED_NTRIPLES)
+
