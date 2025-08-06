@@ -1,0 +1,1741 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:sbol="http://sbols.org/v3#"
+>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction3">
+    <sbol:displayId>Interaction3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Interaction"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000178"/>
+    <sbol:hasParticipation rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction3/Participation1"/>
+    <sbol:hasParticipation rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction3/Participation2"/>
+    <sbol:hasParticipation rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction3/Participation3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_2_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent4">
+    <sbol:displayId>SubComponent4</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/rfp_ce_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23101_ab_in_bb_part_extract">
+    <sbol:displayId>j23101_ab_in_bb_part_extract</sbol:displayId>
+    <sbol:name>part_2_j23101_ab_in_bb</sbol:name>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000915"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb_part_extract_seq"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb_part_extract/SequenceFeature1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb_part_extract/SubComponent1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23101_ab_in_bb_part_extract/SequenceFeature1/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:order>
+    <sbol:hasSequence rdf:resource="GGAGtttacagctagctcagtcctaggtattatgctagcTACT"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_5_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent5">
+    <sbol:displayId>SubComponent5</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_5_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent3">
+    <sbol:displayId>SubComponent3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_6_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent3">
+    <sbol:displayId>SubComponent3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/rfp_ce_in_bb_part_extract/SubComponent1">
+    <sbol:displayId>SubComponent1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/rfp_ce_in_bb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23101_ab_in_bb">
+    <sbol:displayId>j23101_ab_in_bb</sbol:displayId>
+    <sbol:name>j23101_ab_in_bb</sbol:name>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:type rdf:resource="https://identifiers.org/SO:0000988"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000985"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000755"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000167"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb_seq"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb/SequenceFeature1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb/SequenceFeature2"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb/SequenceFeature3"/>
+    <sbol:hasConstraint rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb/Constraint1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction7/Participation3">
+    <sbol:displayId>Participation3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Participation"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000011"/>
+    <sbol:participant rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0034_bc_in_bb/SequenceFeature2/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">479</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">483</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/pOdd_bb/SequenceFeature2/Range2">
+    <sbol:displayId>Range2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1766</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1770</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23100_ab_in_bb_part_extract/SubComponent1">
+    <sbol:displayId>SubComponent1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0034_bc_in_bb/SequenceFeature1">
+    <sbol:displayId>SequenceFeature1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000139"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000915"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb/SequenceFeature1/Range1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_5_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb">
+    <sbol:displayId>composite_5_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb</sbol:displayId>
+    <sbol:name>composite_5_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb</sbol:name>
+    <prov:wasGeneratedBy rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan"/>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000804"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/composite_5_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb_seq"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_5_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_5_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent2"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_5_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent3"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_5_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent4"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_5_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent5"/>
+    <sbol:hasConstraint rdf:resource="http://sbolstandard.org/testfiles/composite_5_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/Constraint1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/pOdd_bb/SequenceFeature3/Range2">
+    <sbol:displayId>Range2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1766</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3286</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/rfp_ce_in_bb_part_extract/SequenceFeature1/Range2">
+    <sbol:displayId>Range2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</sbol:order>
+    <sbol:hasSequence rdf:resource="aatggcttcctccgaagatgttatcaaagagttcatgcgtttcaaagttcgtatggaaggttccgttaacggtcacgagttcgaaatcgaaggtgaaggtgaaggtcgtccgtacgaaggtacccagaccgctaaactgaaagttaccaaaggtggtccgctgccgttcgcttgggacatcctgtccccgcagttccagtacggttccaaagcttacgttaaacacccggctgacatcccggactacctgaaactgtccttcccggaaggtttcaaatgggaacgtgttatgaacttcgaggacggtggtgttgttaccgttacccaggactcctccctgcaagacggtgagttcatctacaaagttaaactgcgtggtaccaacttcccgtccgacggtccggttatgcagaaaaaaaccatgggttgggaagcttccaccgaacgtatgtacccggaagatggtgctctgaaaggtgaaatcaaaatgcgtctgaaactgaaagacggtggtcactacgacgctgaagttaaaaccacctacatggctaaaaaaccggttcagctgccgggtgcttacaaaaccgacatcaaactggacatcacctcccacaacgaggactacaccatcgttgaacagtacgaacgtgctgaaggtcgtcactccaccggtgcttaatgagctt"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">683</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">686</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_6_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent4">
+    <sbol:displayId>SubComponent4</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/cfp_ce_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0034_bc_in_bb/SequenceFeature3/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">482</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0015_ef_in_bb/SequenceFeature2/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">518</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">522</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/gfp_ce_in_bb/SequenceFeature3">
+    <sbol:displayId>SequenceFeature3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/gfp_ce_in_bb/SequenceFeature3/Range1"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/gfp_ce_in_bb/SequenceFeature3/Range2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction7/Participation2">
+    <sbol:displayId>Participation2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Participation"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000010"/>
+    <sbol:participant rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23100_ab_in_bb_part_extract/SequenceFeature1">
+    <sbol:displayId>SequenceFeature1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000366"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb_part_extract/SequenceFeature1/Range1"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb_part_extract/SequenceFeature1/Range2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/cfp_ce_in_bb/SequenceFeature3/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/cfp_ce_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">482</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23101_ab_in_bb_part_extract/SequenceFeature1/Range2">
+    <sbol:displayId>Range2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</sbol:order>
+    <sbol:hasSequence rdf:resource="GGAGtttacagctagctcagtcctaggtattatgctagcTACT"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0015_ef_in_bb_part_extract_seq">
+    <sbol:displayId>b0015_ef_in_bb_part_extract_seq</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:elements>GCTTccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttatacgct</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/rfp_ce_in_bb/SequenceFeature2/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/rfp_ce_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">479</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">483</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan">
+    <sbol:displayId>combinatorial_rgb_transcriptional_units_assembly_plan</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000241"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/ExternallyDefined1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent2"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent3"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent4"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent5"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent6"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent7"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent8"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent9"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent10"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent11"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent12"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent13"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent14"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent15"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent16"/>
+    <sbol:hasInteraction rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction1"/>
+    <sbol:hasInteraction rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction2"/>
+    <sbol:hasInteraction rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction3"/>
+    <sbol:hasInteraction rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction4"/>
+    <sbol:hasInteraction rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction5"/>
+    <sbol:hasInteraction rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction6"/>
+    <sbol:hasInteraction rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction7"/>
+    <sbol:hasInteraction rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0015_ef_in_bb/SequenceFeature3">
+    <sbol:displayId>SequenceFeature3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb/SequenceFeature3/Range1"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb/SequenceFeature3/Range2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction2/Participation1">
+    <sbol:displayId>Participation1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Participation"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000019"/>
+    <sbol:participant rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/ExternallyDefined1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_6_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb">
+    <sbol:displayId>composite_6_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb</sbol:displayId>
+    <sbol:name>composite_6_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb</sbol:name>
+    <prov:wasGeneratedBy rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan"/>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000804"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/composite_6_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb_seq"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_6_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_6_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent2"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_6_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent3"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_6_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent4"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_6_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent5"/>
+    <sbol:hasConstraint rdf:resource="http://sbolstandard.org/testfiles/composite_6_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/Constraint1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_4_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb_seq">
+    <sbol:displayId>composite_4_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb_seq</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:elements>cgctgcatgaagagcctgcagtccggcaaaaaagggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccacaggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagctcgagtcccgtcaagtcagcgtaatgctctgccagtgttacaaccaattaaccaattctgattagaaaaactcatcgagcatcaaatgaaactgcaatttattcatatcaggattatcaataccatatttttgaaaaagccgtttctgtaatgaaggagaaaactcaccgaggcagttccataggatggcaagatcctggtatcggtctgcgattccgactcgtccaacatcaatacaacctattaatttcccctcgtcaaaaataaggttatcaagtgagaaatcaccatgagtgacgactgaatccggtgagaatggcaaaagcttatgcatttctttccagacttgttcaacaggccagccattacgctcgtcatcaaaatcactcgcatcaaccaaaccgttattcattcgtgattgcgcctgagcgagacgaaatacgcgatcgctgttaaaaggacaattacaaacaggaatcgaatgcaaccggcgcaggaacactgccagcgcatcaacaatattttcacctgaatcaggatattcttctaatacctggaatgctgttttcccggggatcgcagtggtgagtaaccatgcatcatcaggagtacggataaaatgcttgatggtcggaagaggcataaattccgtcagccagtttagtctgaccatctcatctgtaacatcattggcaacgctacctttgccatgtttcagaaacaactctggcgcatcgggcttcccatacaatcgatagattgtcgcacctgattgcccgacattatcgcgagcccatttatacccatataaatcagcatccatgttggaatttaatcgcggcctggagcaagacgtttcccgttgaatatggctcataacaccccttgtattactgtttatgtaagcagacagttttattgttcatgatgatatatttttatcttgtgcaatgtaacatcagagattttgagacacaacgtggctttgttgaataaatcgaacttttgctgagttgaaggatcagctcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcgctcttcaatgGGAGtttacagctagctcagtcctaggtattatgctagcTACTagagaaagaggagaaatactaaatggtgagcaagggcgaggagctgttcaccggggtggtgcccatcctggtcgagctggacggcgacgtaaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagttcatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccttcagctacggcgtgcagtgcttcagccgctaccccgaccacatgaagcagcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcatcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaactacaacagccacaacgtctatatcatggccgacaagcagaagaacggcatcaaggtgaacttcaagatccgccacaacatcgaggacggcagcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacaaccactacctgagcacccagtccgccctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttcgtgaccgccgccgggatcactcacggcatggacgagctgtacaagtaaGCTTccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23100_ab_in_bb/SequenceFeature1/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">479</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">513</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_2_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb_seq">
+    <sbol:displayId>composite_2_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb_seq</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:elements>cgctgcatgaagagcctgcagtccggcaaaaaagggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccacaggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagctcgagtcccgtcaagtcagcgtaatgctctgccagtgttacaaccaattaaccaattctgattagaaaaactcatcgagcatcaaatgaaactgcaatttattcatatcaggattatcaataccatatttttgaaaaagccgtttctgtaatgaaggagaaaactcaccgaggcagttccataggatggcaagatcctggtatcggtctgcgattccgactcgtccaacatcaatacaacctattaatttcccctcgtcaaaaataaggttatcaagtgagaaatcaccatgagtgacgactgaatccggtgagaatggcaaaagcttatgcatttctttccagacttgttcaacaggccagccattacgctcgtcatcaaaatcactcgcatcaaccaaaccgttattcattcgtgattgcgcctgagcgagacgaaatacgcgatcgctgttaaaaggacaattacaaacaggaatcgaatgcaaccggcgcaggaacactgccagcgcatcaacaatattttcacctgaatcaggatattcttctaatacctggaatgctgttttcccggggatcgcagtggtgagtaaccatgcatcatcaggagtacggataaaatgcttgatggtcggaagaggcataaattccgtcagccagtttagtctgaccatctcatctgtaacatcattggcaacgctacctttgccatgtttcagaaacaactctggcgcatcgggcttcccatacaatcgatagattgtcgcacctgattgcccgacattatcgcgagcccatttatacccatataaatcagcatccatgttggaatttaatcgcggcctggagcaagacgtttcccgttgaatatggctcataacaccccttgtattactgtttatgtaagcagacagttttattgttcatgatgatatatttttatcttgtgcaatgtaacatcagagattttgagacacaacgtggctttgttgaataaatcgaacttttgctgagttgaaggatcagctcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcgctcttcaatgGGAGttgacggctagctcagtcctaggtacagtgctagcTACTagagaaagaggagaaatactaaatggcttcctccgaagatgttatcaaagagttcatgcgtttcaaagttcgtatggaaggttccgttaacggtcacgagttcgaaatcgaaggtgaaggtgaaggtcgtccgtacgaaggtacccagaccgctaaactgaaagttaccaaaggtggtccgctgccgttcgcttgggacatcctgtccccgcagttccagtacggttccaaagcttacgttaaacacccggctgacatcccggactacctgaaactgtccttcccggaaggtttcaaatgggaacgtgttatgaacttcgaggacggtggtgttgttaccgttacccaggactcctccctgcaagacggtgagttcatctacaaagttaaactgcgtggtaccaacttcccgtccgacggtccggttatgcagaaaaaaaccatgggttgggaagcttccaccgaacgtatgtacccggaagatggtgctctgaaaggtgaaatcaaaatgcgtctgaaactgaaagacggtggtcactacgacgctgaagttaaaaccacctacatggctaaaaaaccggttcagctgccgggtgcttacaaaaccgacatcaaactggacatcacctcccacaacgaggactacaccatcgttgaacagtacgaacgtgctgaaggtcgtcactccaccggtgcttaatgaGCTTccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0015_ef_in_bb/SequenceFeature3/Range2">
+    <sbol:displayId>Range2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">642</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2190</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/cfp_ce_in_bb/SequenceFeature2/Range2">
+    <sbol:displayId>Range2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/cfp_ce_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1194</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1198</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/cfp_ce_in_bb_part_extract">
+    <sbol:displayId>cfp_ce_in_bb_part_extract</sbol:displayId>
+    <sbol:name>part_6_cfp_ce_in_bb</sbol:name>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000915"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/cfp_ce_in_bb_part_extract_seq"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/cfp_ce_in_bb_part_extract/SequenceFeature1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/cfp_ce_in_bb_part_extract/SubComponent1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_6_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb_seq">
+    <sbol:displayId>composite_6_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb_seq</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:elements>cgctgcatgaagagcctgcagtccggcaaaaaagggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccacaggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagctcgagtcccgtcaagtcagcgtaatgctctgccagtgttacaaccaattaaccaattctgattagaaaaactcatcgagcatcaaatgaaactgcaatttattcatatcaggattatcaataccatatttttgaaaaagccgtttctgtaatgaaggagaaaactcaccgaggcagttccataggatggcaagatcctggtatcggtctgcgattccgactcgtccaacatcaatacaacctattaatttcccctcgtcaaaaataaggttatcaagtgagaaatcaccatgagtgacgactgaatccggtgagaatggcaaaagcttatgcatttctttccagacttgttcaacaggccagccattacgctcgtcatcaaaatcactcgcatcaaccaaaccgttattcattcgtgattgcgcctgagcgagacgaaatacgcgatcgctgttaaaaggacaattacaaacaggaatcgaatgcaaccggcgcaggaacactgccagcgcatcaacaatattttcacctgaatcaggatattcttctaatacctggaatgctgttttcccggggatcgcagtggtgagtaaccatgcatcatcaggagtacggataaaatgcttgatggtcggaagaggcataaattccgtcagccagtttagtctgaccatctcatctgtaacatcattggcaacgctacctttgccatgtttcagaaacaactctggcgcatcgggcttcccatacaatcgatagattgtcgcacctgattgcccgacattatcgcgagcccatttatacccatataaatcagcatccatgttggaatttaatcgcggcctggagcaagacgtttcccgttgaatatggctcataacaccccttgtattactgtttatgtaagcagacagttttattgttcatgatgatatatttttatcttgtgcaatgtaacatcagagattttgagacacaacgtggctttgttgaataaatcgaacttttgctgagttgaaggatcagctcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcgctcttcaatgGGAGtttacagctagctcagtcctaggtattatgctagcTACTagagaaagaggagaaatactaaatggtgagcaagggcgaggagctgttcaccggggtggtgcccatcctggtcgagctggacggcgacgtgaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagttcatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccctgacctggggcgtgcagtgcttcagccgctaccccgaccacatgaagcagcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcatcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaactacatcagccacaacgtctatatcaccgccgacaagcagaagaacggcatcaaggccaacttcaagatccgccacaacatcgaggacggcagcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacaaccactacctgagcacccagtccgccctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttcgtgaccgccgccgggatcactctcggcatggacgagctgtacaagtaataaGCTTccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent16">
+    <sbol:displayId>SubComponent16</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb_backbone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/pOdd_bb/SequenceFeature2/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">680</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">684</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction1/Participation3">
+    <sbol:displayId>Participation3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Participation"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000011"/>
+    <sbol:participant rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/cfp_ce_in_bb_part_extract/SequenceFeature1/Range2">
+    <sbol:displayId>Range2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</sbol:order>
+    <sbol:hasSequence rdf:resource="aatggtgagcaagggcgaggagctgttcaccggggtggtgcccatcctggtcgagctggacggcgacgtgaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagttcatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccctgacctggggcgtgcagtgcttcagccgctaccccgaccacatgaagcagcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcatcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaactacatcagccacaacgtctatatcaccgccgacaagcagaagaacggcatcaaggccaacttcaagatccgccacaacatcgaggacggcagcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacaaccactacctgagcacccagtccgccctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttcgtgaccgccgccgggatcactctcggcatggacgagctgtacaagtaataagctt"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">725</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">728</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_5_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb_seq">
+    <sbol:displayId>composite_5_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb_seq</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:elements>cgctgcatgaagagcctgcagtccggcaaaaaagggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccacaggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagctcgagtcccgtcaagtcagcgtaatgctctgccagtgttacaaccaattaaccaattctgattagaaaaactcatcgagcatcaaatgaaactgcaatttattcatatcaggattatcaataccatatttttgaaaaagccgtttctgtaatgaaggagaaaactcaccgaggcagttccataggatggcaagatcctggtatcggtctgcgattccgactcgtccaacatcaatacaacctattaatttcccctcgtcaaaaataaggttatcaagtgagaaatcaccatgagtgacgactgaatccggtgagaatggcaaaagcttatgcatttctttccagacttgttcaacaggccagccattacgctcgtcatcaaaatcactcgcatcaaccaaaccgttattcattcgtgattgcgcctgagcgagacgaaatacgcgatcgctgttaaaaggacaattacaaacaggaatcgaatgcaaccggcgcaggaacactgccagcgcatcaacaatattttcacctgaatcaggatattcttctaatacctggaatgctgttttcccggggatcgcagtggtgagtaaccatgcatcatcaggagtacggataaaatgcttgatggtcggaagaggcataaattccgtcagccagtttagtctgaccatctcatctgtaacatcattggcaacgctacctttgccatgtttcagaaacaactctggcgcatcgggcttcccatacaatcgatagattgtcgcacctgattgcccgacattatcgcgagcccatttatacccatataaatcagcatccatgttggaatttaatcgcggcctggagcaagacgtttcccgttgaatatggctcataacaccccttgtattactgtttatgtaagcagacagttttattgttcatgatgatatatttttatcttgtgcaatgtaacatcagagattttgagacacaacgtggctttgttgaataaatcgaacttttgctgagttgaaggatcagctcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcgctcttcaatgGGAGtttacagctagctcagtcctaggtattatgctagcTACTagagaaagaggagaaatactaaatggcttcctccgaagatgttatcaaagagttcatgcgtttcaaagttcgtatggaaggttccgttaacggtcacgagttcgaaatcgaaggtgaaggtgaaggtcgtccgtacgaaggtacccagaccgctaaactgaaagttaccaaaggtggtccgctgccgttcgcttgggacatcctgtccccgcagttccagtacggttccaaagcttacgttaaacacccggctgacatcccggactacctgaaactgtccttcccggaaggtttcaaatgggaacgtgttatgaacttcgaggacggtggtgttgttaccgttacccaggactcctccctgcaagacggtgagttcatctacaaagttaaactgcgtggtaccaacttcccgtccgacggtccggttatgcagaaaaaaaccatgggttgggaagcttccaccgaacgtatgtacccggaagatggtgctctgaaaggtgaaatcaaaatgcgtctgaaactgaaagacggtggtcactacgacgctgaagttaaaaccacctacatggctaaaaaaccggttcagctgccgggtgcttacaaaaccgacatcaaactggacatcacctcccacaacgaggactacaccatcgttgaacagtacgaacgtgctgaaggtcgtcactccaccggtgcttaatgaGCTTccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/rfp_ce_in_bb_part_extract">
+    <sbol:displayId>rfp_ce_in_bb_part_extract</sbol:displayId>
+    <sbol:name>part_5_rfp_ce_in_bb</sbol:name>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000915"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/rfp_ce_in_bb_part_extract_seq"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/rfp_ce_in_bb_part_extract/SequenceFeature1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/rfp_ce_in_bb_part_extract/SubComponent1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/rfp_ce_in_bb_seq">
+    <sbol:displayId>rfp_ce_in_bb_seq</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:elements>tcattgccatacgaaattccggatgagcattcatcaggcgggcaagaatgtgaataaaggccggataaaacttgtgcttatttttctttacggtctttaaaaaggccgtaatatccagctgaacggtctggttataggtacattgagcaactgactgaaatgcctcaaaatgttctttacgatgccattgggatatatcaacggtggtatatccagtgatttttttctccattttagcttccttagctcctgaaaatctcgataactcaaaaaatacgcccggtagtgatcttatttcattatggtgaaagttggaacctcttacgtgcccgatcaactcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcggtctcgaatggcttcctccgaagatgttatcaaagagttcatgcgtttcaaagttcgtatggaaggttccgttaacggtcacgagttcgaaatcgaaggtgaaggtgaaggtcgtccgtacgaaggtacccagaccgctaaactgaaagttaccaaaggtggtccgctgccgttcgcttgggacatcctgtccccgcagttccagtacggttccaaagcttacgttaaacacccggctgacatcccggactacctgaaactgtccttcccggaaggtttcaaatgggaacgtgttatgaacttcgaggacggtggtgttgttaccgttacccaggactcctccctgcaagacggtgagttcatctacaaagttaaactgcgtggtaccaacttcccgtccgacggtccggttatgcagaaaaaaaccatgggttgggaagcttccaccgaacgtatgtacccggaagatggtgctctgaaaggtgaaatcaaaatgcgtctgaaactgaaagacggtggtcactacgacgctgaagttaaaaccacctacatggctaaaaaaccggttcagctgccgggtgcttacaaaaccgacatcaaactggacatcacctcccacaacgaggactacaccatcgttgaacagtacgaacgtgctgaaggtcgtcactccaccggtgcttaatgagcttCGAGaccctgcagtccggcaaaaaagggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccacaggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagctcgaggcttggattctcaccaataaaaaacgcccggcggcaaccgagcgttctgaacaaatccagatggagttctgaggtcattactggatctatcaacaggagtccaagcgagctcgatatcaaattacgccccgccctgccactcatcgcagtactgttgtaattcattaagcattctgccgacatggaagccatcacaaacggcatgatgaacctgaatcgccagcggcatcagcaccttgtcgccttgcgtataatatttgcccatggtgaaaacgggggcgaagaagttgtccatattggccacgtttaaatcaaaactggtgaaactcacccagggattggctgagacgaaaaacatattctcaataaaccctttagggaaataggccaggttttcaccgtaacacgccacatcttgcgaatatatgtgtagaaactgccggaaatcgtcgtggtattcactccagagcgatgaaaacgtttcagtttgctcatggaaaacggtgtaacaagggtgaacactatcccatatcaccagctcaccgtct</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23100_ab_in_bb/Constraint1">
+    <sbol:displayId>Constraint1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Constraint"/>
+    <sbol:restriction rdf:resource="http://sbols.org/v3#meets"/>
+    <sbol:subject rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb/SequenceFeature1"/>
+    <sbol:object rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb/SequenceFeature3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/cfp_ce_in_bb">
+    <sbol:displayId>cfp_ce_in_bb</sbol:displayId>
+    <sbol:name>cfp_ce_in_bb</sbol:name>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:type rdf:resource="https://identifiers.org/SO:0000988"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000985"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000755"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000316"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/cfp_ce_in_bb_seq"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/cfp_ce_in_bb/SequenceFeature1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/cfp_ce_in_bb/SequenceFeature2"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/cfp_ce_in_bb/SequenceFeature3"/>
+    <sbol:hasConstraint rdf:resource="http://sbolstandard.org/testfiles/cfp_ce_in_bb/Constraint1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/gfp_ce_in_bb_part_extract">
+    <sbol:displayId>gfp_ce_in_bb_part_extract</sbol:displayId>
+    <sbol:name>part_4_gfp_ce_in_bb</sbol:name>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000915"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/gfp_ce_in_bb_part_extract_seq"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/gfp_ce_in_bb_part_extract/SequenceFeature1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/gfp_ce_in_bb_part_extract/SubComponent1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/pOdd_bb_seq">
+    <sbol:displayId>pOdd_bb_seq</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:elements>ccggcgcaggaacactgccagcgcatcaacaatattttcacctgaatcaggatattcttctaatacctggaatgctgttttcccggggatcgcagtggtgagtaaccatgcatcatcaggagtacggataaaatgcttgatggtcggaagaggcataaattccgtcagccagtttagtctgaccatctcatctgtaacatcattggcaacgctacctttgccatgtttcagaaacaactctggcgcatcgggcttcccatacaatcgatagattgtcgcacctgattgcccgacattatcgcgagcccatttatacccatataaatcagcatccatgttggaatttaatcgcggcctggagcaagacgtttcccgttgaatatggctcataacaccccttgtattactgtttatgtaagcagacagttttattgttcatgatgatatatttttatcttgtgcaatgtaacatcagagattttgagacacaacgtggctttgttgaataaatcgaacttttgctgagttgaaggatcagctcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcgctcttcaatgggagtgagacccaatacgcaaaccgcctctccccgcgcgttggccgattcattaatgcagctggcacgacaggtttcccgactggaaagcgggcagtgagcgcaacgcaattaatgtgagttagctcactcattaggcaccccaggctttacactttatgcttccggctcgtatgttgtgtggaattgtgagcggataacaatttcacacatactagagaaagaggagaaatactagatggcttcctccgaagacgttatcaaagagttcatgcgtttcaaagttcgtatggaaggttccgttaacggtcacgagttcgaaatcgaaggtgaaggtgaaggtcgtccgtacgaaggtacccagaccgctaaactgaaagttaccaaaggtggtccgctgccgttcgcttgggacatcctgtccccgcagttccagtacggttccaaagcttacgttaaacacccggctgacatcccggactacctgaaactgtccttcccggaaggtttcaaatgggaacgtgttatgaacttcgaagacggtggtgttgttaccgttacccaggactcctccctgcaagacggtgagttcatctacaaagttaaactgcgtggtaccaacttcccgtccgacggtccggttatgcagaaaaaaaccatgggttgggaagcttccaccgaacgtatgtacccggaagacggtgctctgaaaggtgaaatcaaaatgcgtctgaaactgaaagacggtggtcactacgacgctgaagttaaaaccacctacatggctaaaaaaccggttcagctgccgggtgcttacaaaaccgacatcaaactggacatcacctcccacaacgaagactacaccatcgttgaacagtacgaacgtgctgaaggtcgtcactccaccggtgcttaataacgctgatagtgctagtgtagatcgctactagagccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttataggtctcacgctgcatgaagagcctgcagtccggcaaaaaagggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccacaggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagctcgagtcccgtcaagtcagcgtaatgctctgccagtgttacaaccaattaaccaattctgattagaaaaactcatcgagcatcaaatgaaactgcaatttattcatatcaggattatcaataccatatttttgaaaaagccgtttctgtaatgaaggagaaaactcaccgaggcagttccataggatggcaagatcctggtatcggtctgcgattccgactcgtccaacatcaatacaacctattaatttcccctcgtcaaaaataaggttatcaagtgagaaatcaccatgagtgacgactgaatccggtgagaatggcaaaagcttatgcatttctttccagacttgttcaacaggccagccattacgctcgtcatcaaaatcactcgcatcaaccaaaccgttattcattcgtgattgcgcctgagcgagacgaaatacgcgatcgctgttaaaaggacaattacaaacaggaatcgaatgcaa</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/rfp_ce_in_bb/SequenceFeature1">
+    <sbol:displayId>SequenceFeature1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000316"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000915"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/rfp_ce_in_bb/SequenceFeature1/Range1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23101_ab_in_bb/SequenceFeature3/Range2">
+    <sbol:displayId>Range2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">509</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2095</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/cfp_ce_in_bb/SequenceFeature3/Range2">
+    <sbol:displayId>Range2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/cfp_ce_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1194</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2780</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0015_ef_in_bb_part_extract">
+    <sbol:displayId>b0015_ef_in_bb_part_extract</sbol:displayId>
+    <sbol:name>part_7_b0015_ef_in_bb</sbol:name>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000915"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb_part_extract_seq"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb_part_extract/SequenceFeature1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb_part_extract/SubComponent1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23101_ab_in_bb/SequenceFeature1/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">479</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">513</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/ExternallyDefined1">
+    <sbol:displayId>ExternallyDefined1</sbol:displayId>
+    <sbol:name>BsaI</sbol:name>
+    <rdf:type rdf:resource="http://sbols.org/v3#ExternallyDefined"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000252"/>
+    <sbol:definition rdf:resource="http://rebase.neb.com/rebase/enz/BsaI.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_3_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb_seq">
+    <sbol:displayId>composite_3_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb_seq</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:elements>cgctgcatgaagagcctgcagtccggcaaaaaagggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccacaggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagctcgagtcccgtcaagtcagcgtaatgctctgccagtgttacaaccaattaaccaattctgattagaaaaactcatcgagcatcaaatgaaactgcaatttattcatatcaggattatcaataccatatttttgaaaaagccgtttctgtaatgaaggagaaaactcaccgaggcagttccataggatggcaagatcctggtatcggtctgcgattccgactcgtccaacatcaatacaacctattaatttcccctcgtcaaaaataaggttatcaagtgagaaatcaccatgagtgacgactgaatccggtgagaatggcaaaagcttatgcatttctttccagacttgttcaacaggccagccattacgctcgtcatcaaaatcactcgcatcaaccaaaccgttattcattcgtgattgcgcctgagcgagacgaaatacgcgatcgctgttaaaaggacaattacaaacaggaatcgaatgcaaccggcgcaggaacactgccagcgcatcaacaatattttcacctgaatcaggatattcttctaatacctggaatgctgttttcccggggatcgcagtggtgagtaaccatgcatcatcaggagtacggataaaatgcttgatggtcggaagaggcataaattccgtcagccagtttagtctgaccatctcatctgtaacatcattggcaacgctacctttgccatgtttcagaaacaactctggcgcatcgggcttcccatacaatcgatagattgtcgcacctgattgcccgacattatcgcgagcccatttatacccatataaatcagcatccatgttggaatttaatcgcggcctggagcaagacgtttcccgttgaatatggctcataacaccccttgtattactgtttatgtaagcagacagttttattgttcatgatgatatatttttatcttgtgcaatgtaacatcagagattttgagacacaacgtggctttgttgaataaatcgaacttttgctgagttgaaggatcagctcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcgctcttcaatgGGAGttgacggctagctcagtcctaggtacagtgctagcTACTagagaaagaggagaaatactaaatggtgagcaagggcgaggagctgttcaccggggtggtgcccatcctggtcgagctggacggcgacgtgaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagttcatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccctgacctggggcgtgcagtgcttcagccgctaccccgaccacatgaagcagcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcatcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaactacatcagccacaacgtctatatcaccgccgacaagcagaagaacggcatcaaggccaacttcaagatccgccacaacatcgaggacggcagcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacaaccactacctgagcacccagtccgccctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttcgtgaccgccgccgggatcactctcggcatggacgagctgtacaagtaataaGCTTccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction4">
+    <sbol:displayId>Interaction4</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Interaction"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000178"/>
+    <sbol:hasParticipation rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction4/Participation1"/>
+    <sbol:hasParticipation rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction4/Participation2"/>
+    <sbol:hasParticipation rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction4/Participation3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent9">
+    <sbol:displayId>SubComponent9</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/rfp_ce_in_bb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction8">
+    <sbol:displayId>Interaction8</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Interaction"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000178"/>
+    <sbol:hasParticipation rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction8/Participation1"/>
+    <sbol:hasParticipation rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction8/Participation2"/>
+    <sbol:hasParticipation rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction8/Participation3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0015_ef_in_bb_part_extract/SequenceFeature1">
+    <sbol:displayId>SequenceFeature1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000366"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb_part_extract/SequenceFeature1/Range1"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb_part_extract/SequenceFeature1/Range2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent10">
+    <sbol:displayId>SubComponent10</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/rfp_ce_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23100_ab_in_bb">
+    <sbol:displayId>j23100_ab_in_bb</sbol:displayId>
+    <sbol:name>j23100_ab_in_bb</sbol:name>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:type rdf:resource="https://identifiers.org/SO:0000988"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000985"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000755"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000167"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb_seq"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb/SequenceFeature1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb/SequenceFeature2"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb/SequenceFeature3"/>
+    <sbol:hasConstraint rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb/Constraint1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/gfp_ce_in_bb_part_extract/SequenceFeature1/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:order>
+    <sbol:hasSequence rdf:resource="aatggtgagcaagggcgaggagctgttcaccggggtggtgcccatcctggtcgagctggacggcgacgtaaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagttcatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccttcagctacggcgtgcagtgcttcagccgctaccccgaccacatgaagcagcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcatcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaactacaacagccacaacgtctatatcatggccgacaagcagaagaacggcatcaaggtgaacttcaagatccgccacaacatcgaggacggcagcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacaaccactacctgagcacccagtccgccctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttcgtgaccgccgccgggatcactcacggcatggacgagctgtacaagtaagctt"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent2">
+    <sbol:displayId>SubComponent2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0034_bc_in_bb_part_extract_seq">
+    <sbol:displayId>b0034_bc_in_bb_part_extract_seq</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:elements>TACTagagaaagaggagaaatactaaatg</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent14">
+    <sbol:displayId>SubComponent14</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/pOdd_bb/SequenceFeature1">
+    <sbol:displayId>SequenceFeature1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000159"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb/SequenceFeature1/Range1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/gfp_ce_in_bb/SequenceFeature1">
+    <sbol:displayId>SequenceFeature1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000316"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000915"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/gfp_ce_in_bb/SequenceFeature1/Range1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23101_ab_in_bb_part_extract_seq">
+    <sbol:displayId>j23101_ab_in_bb_part_extract_seq</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:elements>GGAGtttacagctagctcagtcctaggtattatgctagcTACT</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_5_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent2">
+    <sbol:displayId>SubComponent2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent15">
+    <sbol:displayId>SubComponent15</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/rfp_ce_in_bb">
+    <sbol:displayId>rfp_ce_in_bb</sbol:displayId>
+    <sbol:name>rfp_ce_in_bb</sbol:name>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:type rdf:resource="https://identifiers.org/SO:0000988"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000985"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000755"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000316"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/rfp_ce_in_bb_seq"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/rfp_ce_in_bb/SequenceFeature1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/rfp_ce_in_bb/SequenceFeature2"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/rfp_ce_in_bb/SequenceFeature3"/>
+    <sbol:hasConstraint rdf:resource="http://sbolstandard.org/testfiles/rfp_ce_in_bb/Constraint1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0034_bc_in_bb/SequenceFeature2/Range2">
+    <sbol:displayId>Range2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">495</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">499</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/pOdd_bb_backbone">
+    <sbol:displayId>pOdd_bb_backbone</sbol:displayId>
+    <sbol:name>part_8</sbol:name>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000755"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb_backbone_seq"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb_backbone/SequenceFeature1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb_backbone/SubComponent1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23101_ab_in_bb_seq">
+    <sbol:displayId>j23101_ab_in_bb_seq</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:elements>tcattgccatacgaaattccggatgagcattcatcaggcgggcaagaatgtgaataaaggccggataaaacttgtgcttatttttctttacggtctttaaaaaggccgtaatatccagctgaacggtctggttataggtacattgagcaactgactgaaatgcctcaaaatgttctttacgatgccattgggatatatcaacggtggtatatccagtgatttttttctccattttagcttccttagctcctgaaaatctcgataactcaaaaaatacgcccggtagtgatcttatttcattatggtgaaagttggaacctcttacgtgcccgatcaactcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcggtctcgGGAGtttacagctagctcagtcctaggtattatgctagcTACTCGAGaccctgcagtccggcaaaaaagggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccacaggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagctcgaggcttggattctcaccaataaaaaacgcccggcggcaaccgagcgttctgaacaaatccagatggagttctgaggtcattactggatctatcaacaggagtccaagcgagctcgatatcaaattacgccccgccctgccactcatcgcagtactgttgtaattcattaagcattctgccgacatggaagccatcacaaacggcatgatgaacctgaatcgccagcggcatcagcaccttgtcgccttgcgtataatatttgcccatggtgaaaacgggggcgaagaagttgtccatattggccacgtttaaatcaaaactggtgaaactcacccagggattggctgagacgaaaaacatattctcaataaaccctttagggaaataggccaggttttcaccgtaacacgccacatcttgcgaatatatgtgtagaaactgccggaaatcgtcgtggtattcactccagagcgatgaaaacgtttcagtttgctcatggaaaacggtgtaacaagggtgaacactatcccatatcaccagctcaccgtct</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0034_bc_in_bb/SequenceFeature3">
+    <sbol:displayId>SequenceFeature3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb/SequenceFeature3/Range1"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb/SequenceFeature3/Range2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_5_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/Constraint1">
+    <sbol:displayId>Constraint1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Constraint"/>
+    <sbol:restriction rdf:resource="http://sbols.org/v3#meets"/>
+    <sbol:subject rdf:resource="http://sbolstandard.org/testfiles/composite_5_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent4"/>
+    <sbol:object rdf:resource="http://sbolstandard.org/testfiles/composite_5_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0015_ef_in_bb/Constraint1">
+    <sbol:displayId>Constraint1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Constraint"/>
+    <sbol:restriction rdf:resource="http://sbols.org/v3#meets"/>
+    <sbol:subject rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb/SequenceFeature1"/>
+    <sbol:object rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb/SequenceFeature3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_2_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb">
+    <sbol:displayId>composite_2_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb</sbol:displayId>
+    <sbol:name>composite_2_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb</sbol:name>
+    <prov:wasGeneratedBy rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan"/>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000804"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/composite_2_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb_seq"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_2_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_2_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent2"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_2_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent3"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_2_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent4"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_2_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent5"/>
+    <sbol:hasConstraint rdf:resource="http://sbolstandard.org/testfiles/composite_2_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/Constraint1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/pOdd_bb_backbone/SubComponent1">
+    <sbol:displayId>SubComponent1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/rfp_ce_in_bb/SequenceFeature1/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/rfp_ce_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">479</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1156</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23100_ab_in_bb_seq">
+    <sbol:displayId>j23100_ab_in_bb_seq</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:elements>tcattgccatacgaaattccggatgagcattcatcaggcgggcaagaatgtgaataaaggccggataaaacttgtgcttatttttctttacggtctttaaaaaggccgtaatatccagctgaacggtctggttataggtacattgagcaactgactgaaatgcctcaaaatgttctttacgatgccattgggatatatcaacggtggtatatccagtgatttttttctccattttagcttccttagctcctgaaaatctcgataactcaaaaaatacgcccggtagtgatcttatttcattatggtgaaagttggaacctcttacgtgcccgatcaactcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcggtctcgGGAGttgacggctagctcagtcctaggtacagtgctagcTACTCGAGaccctgcagtccggcaaaaaagggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccacaggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagctcgaggcttggattctcaccaataaaaaacgcccggcggcaaccgagcgttctgaacaaatccagatggagttctgaggtcattactggatctatcaacaggagtccaagcgagctcgatatcaaattacgccccgccctgccactcatcgcagtactgttgtaattcattaagcattctgccgacatggaagccatcacaaacggcatgatgaacctgaatcgccagcggcatcagcaccttgtcgccttgcgtataatatttgcccatggtgaaaacgggggcgaagaagttgtccatattggccacgtttaaatcaaaactggtgaaactcacccagggattggctgagacgaaaaacatattctcaataaaccctttagggaaataggccaggttttcaccgtaacacgccacatcttgcgaatatatgtgtagaaactgccggaaatcgtcgtggtattcactccagagcgatgaaaacgtttcagtttgctcatggaaaacggtgtaacaagggtgaacactatcccatatcaccagctcaccgtct</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23101_ab_in_bb/SequenceFeature3">
+    <sbol:displayId>SequenceFeature3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb/SequenceFeature3/Range1"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb/SequenceFeature3/Range2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0015_ef_in_bb/SequenceFeature1">
+    <sbol:displayId>SequenceFeature1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000141"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000915"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb/SequenceFeature1/Range1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/rfp_ce_in_bb/SequenceFeature2">
+    <sbol:displayId>SequenceFeature2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000366"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/rfp_ce_in_bb/SequenceFeature2/Range1"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/rfp_ce_in_bb/SequenceFeature2/Range2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/pOdd_bb">
+    <sbol:displayId>pOdd_bb</sbol:displayId>
+    <sbol:name>pOdd_bb</sbol:name>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+    <sbol:type rdf:resource="https://identifiers.org/SO:0000988"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000985"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000755"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb_seq"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb/SequenceFeature1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb/SequenceFeature2"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb/SequenceFeature3"/>
+    <sbol:hasConstraint rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb/Constraint1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0015_ef_in_bb_part_extract/SequenceFeature1/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:order>
+    <sbol:hasSequence rdf:resource="GCTTccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttatacgct"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction6">
+    <sbol:displayId>Interaction6</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Interaction"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000178"/>
+    <sbol:hasParticipation rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction6/Participation1"/>
+    <sbol:hasParticipation rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction6/Participation2"/>
+    <sbol:hasParticipation rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction6/Participation3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction2/Participation3">
+    <sbol:displayId>Participation3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Participation"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000011"/>
+    <sbol:participant rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0034_bc_in_bb_part_extract/SubComponent1">
+    <sbol:displayId>SubComponent1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0015_ef_in_bb_part_extract/SequenceFeature1/Range2">
+    <sbol:displayId>Range2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</sbol:order>
+    <sbol:hasSequence rdf:resource="GCTTccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttatacgct"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">134</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">137</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/gfp_ce_in_bb/SequenceFeature1/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/gfp_ce_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">479</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1195</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23100_ab_in_bb/SequenceFeature2">
+    <sbol:displayId>SequenceFeature2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000366"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb/SequenceFeature2/Range1"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb/SequenceFeature2/Range2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/gfp_ce_in_bb">
+    <sbol:displayId>gfp_ce_in_bb</sbol:displayId>
+    <sbol:name>gfp_ce_in_bb</sbol:name>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:type rdf:resource="https://identifiers.org/SO:0000988"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000985"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000755"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000316"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/gfp_ce_in_bb_seq"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/gfp_ce_in_bb/SequenceFeature1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/gfp_ce_in_bb/SequenceFeature2"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/gfp_ce_in_bb/SequenceFeature3"/>
+    <sbol:hasConstraint rdf:resource="http://sbolstandard.org/testfiles/gfp_ce_in_bb/Constraint1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/cfp_ce_in_bb_part_extract_seq">
+    <sbol:displayId>cfp_ce_in_bb_part_extract_seq</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:elements>aatggtgagcaagggcgaggagctgttcaccggggtggtgcccatcctggtcgagctggacggcgacgtgaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagttcatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccctgacctggggcgtgcagtgcttcagccgctaccccgaccacatgaagcagcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcatcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaactacatcagccacaacgtctatatcaccgccgacaagcagaagaacggcatcaaggccaacttcaagatccgccacaacatcgaggacggcagcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacaaccactacctgagcacccagtccgccctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttcgtgaccgccgccgggatcactctcggcatggacgagctgtacaagtaataagctt</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_3_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent2">
+    <sbol:displayId>SubComponent2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction6/Participation3">
+    <sbol:displayId>Participation3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Participation"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000011"/>
+    <sbol:participant rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/rfp_ce_in_bb/Constraint1">
+    <sbol:displayId>Constraint1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Constraint"/>
+    <sbol:restriction rdf:resource="http://sbols.org/v3#meets"/>
+    <sbol:subject rdf:resource="http://sbolstandard.org/testfiles/rfp_ce_in_bb/SequenceFeature1"/>
+    <sbol:object rdf:resource="http://sbolstandard.org/testfiles/rfp_ce_in_bb/SequenceFeature3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/gfp_ce_in_bb_part_extract/SequenceFeature1/Range2">
+    <sbol:displayId>Range2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</sbol:order>
+    <sbol:hasSequence rdf:resource="aatggtgagcaagggcgaggagctgttcaccggggtggtgcccatcctggtcgagctggacggcgacgtaaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagttcatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccttcagctacggcgtgcagtgcttcagccgctaccccgaccacatgaagcagcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcatcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaactacaacagccacaacgtctatatcatggccgacaagcagaagaacggcatcaaggtgaacttcaagatccgccacaacatcgaggacggcagcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacaaccactacctgagcacccagtccgccctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttcgtgaccgccgccgggatcactcacggcatggacgagctgtacaagtaagctt"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">722</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">725</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0034_bc_in_bb_part_extract/SequenceFeature1/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:order>
+    <sbol:hasSequence rdf:resource="TACTagagaaagaggagaaatactaaatg"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction1/Participation2">
+    <sbol:displayId>Participation2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Participation"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000010"/>
+    <sbol:participant rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/rfp_ce_in_bb/SequenceFeature3/Range2">
+    <sbol:displayId>Range2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/rfp_ce_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1152</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2738</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/gfp_ce_in_bb/SequenceFeature2/Range2">
+    <sbol:displayId>Range2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/gfp_ce_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1191</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1195</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/pOdd_bb/SequenceFeature3/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">683</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/gfp_ce_in_bb_part_extract_seq">
+    <sbol:displayId>gfp_ce_in_bb_part_extract_seq</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:elements>aatggtgagcaagggcgaggagctgttcaccggggtggtgcccatcctggtcgagctggacggcgacgtaaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagttcatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccttcagctacggcgtgcagtgcttcagccgctaccccgaccacatgaagcagcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcatcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaactacaacagccacaacgtctatatcatggccgacaagcagaagaacggcatcaaggtgaacttcaagatccgccacaacatcgaggacggcagcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacaaccactacctgagcacccagtccgccctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttcgtgaccgccgccgggatcactcacggcatggacgagctgtacaagtaagctt</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23101_ab_in_bb/SequenceFeature2/Range2">
+    <sbol:displayId>Range2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">509</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">513</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_3_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent4">
+    <sbol:displayId>SubComponent4</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/cfp_ce_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0034_bc_in_bb_part_extract">
+    <sbol:displayId>b0034_bc_in_bb_part_extract</sbol:displayId>
+    <sbol:name>part_3_b0034_bc_in_bb</sbol:name>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000915"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb_part_extract_seq"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb_part_extract/SequenceFeature1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb_part_extract/SubComponent1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23100_ab_in_bb/SequenceFeature3">
+    <sbol:displayId>SequenceFeature3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb/SequenceFeature3/Range1"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb/SequenceFeature3/Range2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_4_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent1">
+    <sbol:displayId>SubComponent1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb_backbone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_1_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/Constraint1">
+    <sbol:displayId>Constraint1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Constraint"/>
+    <sbol:restriction rdf:resource="http://sbols.org/v3#meets"/>
+    <sbol:subject rdf:resource="http://sbolstandard.org/testfiles/composite_1_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent4"/>
+    <sbol:object rdf:resource="http://sbolstandard.org/testfiles/composite_1_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction7">
+    <sbol:displayId>Interaction7</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Interaction"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000178"/>
+    <sbol:hasParticipation rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction7/Participation1"/>
+    <sbol:hasParticipation rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction7/Participation2"/>
+    <sbol:hasParticipation rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction7/Participation3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction3/Participation1">
+    <sbol:displayId>Participation1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Participation"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000019"/>
+    <sbol:participant rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/ExternallyDefined1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_3_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/Constraint1">
+    <sbol:displayId>Constraint1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Constraint"/>
+    <sbol:restriction rdf:resource="http://sbols.org/v3#meets"/>
+    <sbol:subject rdf:resource="http://sbolstandard.org/testfiles/composite_3_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent4"/>
+    <sbol:object rdf:resource="http://sbolstandard.org/testfiles/composite_3_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/gfp_ce_in_bb/Constraint1">
+    <sbol:displayId>Constraint1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Constraint"/>
+    <sbol:restriction rdf:resource="http://sbols.org/v3#meets"/>
+    <sbol:subject rdf:resource="http://sbolstandard.org/testfiles/gfp_ce_in_bb/SequenceFeature1"/>
+    <sbol:object rdf:resource="http://sbolstandard.org/testfiles/gfp_ce_in_bb/SequenceFeature3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction1/Participation1">
+    <sbol:displayId>Participation1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Participation"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000019"/>
+    <sbol:participant rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/ExternallyDefined1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_2_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent3">
+    <sbol:displayId>SubComponent3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0015_ef_in_bb">
+    <sbol:displayId>b0015_ef_in_bb</sbol:displayId>
+    <sbol:name>b0015_ef_in_bb</sbol:name>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:type rdf:resource="https://identifiers.org/SO:0000988"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000985"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000755"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000141"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb_seq"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb/SequenceFeature1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb/SequenceFeature2"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb/SequenceFeature3"/>
+    <sbol:hasConstraint rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb/Constraint1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_4_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb">
+    <sbol:displayId>composite_4_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb</sbol:displayId>
+    <sbol:name>composite_4_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb</sbol:name>
+    <prov:wasGeneratedBy rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan"/>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000804"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/composite_4_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb_seq"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_4_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_4_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent2"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_4_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent3"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_4_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent4"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_4_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent5"/>
+    <sbol:hasConstraint rdf:resource="http://sbolstandard.org/testfiles/composite_4_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/Constraint1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0034_bc_in_bb">
+    <sbol:displayId>b0034_bc_in_bb</sbol:displayId>
+    <sbol:name>b0034_bc_in_bb</sbol:name>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:type rdf:resource="https://identifiers.org/SO:0000988"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000985"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000139"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000755"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb_seq"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb/SequenceFeature1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb/SequenceFeature2"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb/SequenceFeature3"/>
+    <sbol:hasConstraint rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb/Constraint1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction8/Participation3">
+    <sbol:displayId>Participation3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Participation"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000011"/>
+    <sbol:participant rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent16"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23100_ab_in_bb_part_extract">
+    <sbol:displayId>j23100_ab_in_bb_part_extract</sbol:displayId>
+    <sbol:name>part_1_j23100_ab_in_bb</sbol:name>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000915"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb_part_extract_seq"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb_part_extract/SequenceFeature1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb_part_extract/SubComponent1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_3_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent1">
+    <sbol:displayId>SubComponent1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb_backbone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/pOdd_bb_backbone/SequenceFeature1">
+    <sbol:displayId>SequenceFeature1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000366"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb_backbone/SequenceFeature1/Range1"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb_backbone/SequenceFeature1/Range2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0015_ef_in_bb_seq">
+    <sbol:displayId>b0015_ef_in_bb_seq</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:elements>aagggtgaacactatcccatatcaccagctcaccgtctttcattgccatacgaaattccggatgagcattcatcaggcgggcaagaatgtgaataaaggccggataaaacttgtgcttatttttctttacggtctttaaaaaggccgtaatatccagctgaacggtctggttataggtacattgagcaactgactgaaatgcctcaaaatgttctttacgatgccattgggatatatcaacggtggtatatccagtgatttttttctccattttagcttccttagctcctgaaaatctcgataactcaaaaaatacgcccggtagtgatcttatttcattatggtgaaagttggaacctcttacgtgcccgatcaactcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcggtctcgGCTTccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttatacgctCGAGaccctgcagtccggcaaaaaagggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccacaggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagctcgaggcttggattctcaccaataaaaaacgcccggcggcaaccgagcgttctgaacaaatccagatggagttctgaggtcattactggatctatcaacaggagtccaagcgagctcgatatcaaattacgccccgccctgccactcatcgcagtactgttgtaattcattaagcattctgccgacatggaagccatcacaaacggcatgatgaacctgaatcgccagcggcatcagcaccttgtcgccttgcgtataatatttgcccatggtgaaaacgggggcgaagaagttgtccatattggccacgtttaaatcaaaactggtgaaactcacccagggattggctgagacgaaaaacatattctcaataaaccctttagggaaataggccaggttttcaccgtaacacgccacatcttgcgaatatatgtgtagaaactgccggaaatcgtcgtggtattcactccagagcgatgaaaacgtttcagtttgctcatggaaaacggtgtaac</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_1_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb">
+    <sbol:displayId>composite_1_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb</sbol:displayId>
+    <sbol:name>composite_1_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb</sbol:name>
+    <prov:wasGeneratedBy rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan"/>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000804"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/composite_1_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb_seq"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_1_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_1_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent2"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_1_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent3"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_1_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent4"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_1_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent5"/>
+    <sbol:hasConstraint rdf:resource="http://sbolstandard.org/testfiles/composite_1_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/Constraint1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0015_ef_in_bb/SequenceFeature1/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">518</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">646</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction1">
+    <sbol:displayId>Interaction1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Interaction"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000178"/>
+    <sbol:hasParticipation rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction1/Participation1"/>
+    <sbol:hasParticipation rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction1/Participation2"/>
+    <sbol:hasParticipation rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction1/Participation3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/cfp_ce_in_bb/SequenceFeature2/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/cfp_ce_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">479</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">483</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_6_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/Constraint1">
+    <sbol:displayId>Constraint1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Constraint"/>
+    <sbol:restriction rdf:resource="http://sbols.org/v3#meets"/>
+    <sbol:subject rdf:resource="http://sbolstandard.org/testfiles/composite_6_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent4"/>
+    <sbol:object rdf:resource="http://sbolstandard.org/testfiles/composite_6_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/rfp_ce_in_bb/SequenceFeature2/Range2">
+    <sbol:displayId>Range2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/rfp_ce_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1152</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1156</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/rfp_ce_in_bb_part_extract_seq">
+    <sbol:displayId>rfp_ce_in_bb_part_extract_seq</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:elements>aatggcttcctccgaagatgttatcaaagagttcatgcgtttcaaagttcgtatggaaggttccgttaacggtcacgagttcgaaatcgaaggtgaaggtgaaggtcgtccgtacgaaggtacccagaccgctaaactgaaagttaccaaaggtggtccgctgccgttcgcttgggacatcctgtccccgcagttccagtacggttccaaagcttacgttaaacacccggctgacatcccggactacctgaaactgtccttcccggaaggtttcaaatgggaacgtgttatgaacttcgaggacggtggtgttgttaccgttacccaggactcctccctgcaagacggtgagttcatctacaaagttaaactgcgtggtaccaacttcccgtccgacggtccggttatgcagaaaaaaaccatgggttgggaagcttccaccgaacgtatgtacccggaagatggtgctctgaaaggtgaaatcaaaatgcgtctgaaactgaaagacggtggtcactacgacgctgaagttaaaaccacctacatggctaaaaaaccggttcagctgccgggtgcttacaaaaccgacatcaaactggacatcacctcccacaacgaggactacaccatcgttgaacagtacgaacgtgctgaaggtcgtcactccaccggtgcttaatgagctt</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction2">
+    <sbol:displayId>Interaction2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Interaction"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000178"/>
+    <sbol:hasParticipation rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction2/Participation1"/>
+    <sbol:hasParticipation rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction2/Participation2"/>
+    <sbol:hasParticipation rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction2/Participation3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/cfp_ce_in_bb/SequenceFeature1">
+    <sbol:displayId>SequenceFeature1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000316"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000915"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/cfp_ce_in_bb/SequenceFeature1/Range1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23101_ab_in_bb_part_extract/SubComponent1">
+    <sbol:displayId>SubComponent1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/cfp_ce_in_bb/Constraint1">
+    <sbol:displayId>Constraint1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Constraint"/>
+    <sbol:restriction rdf:resource="http://sbols.org/v3#meets"/>
+    <sbol:subject rdf:resource="http://sbolstandard.org/testfiles/cfp_ce_in_bb/SequenceFeature1"/>
+    <sbol:object rdf:resource="http://sbolstandard.org/testfiles/cfp_ce_in_bb/SequenceFeature3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0034_bc_in_bb/SequenceFeature3/Range2">
+    <sbol:displayId>Range2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">495</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2081</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/rfp_ce_in_bb/SequenceFeature3/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/rfp_ce_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">482</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent12">
+    <sbol:displayId>SubComponent12</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/cfp_ce_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/gfp_ce_in_bb/SequenceFeature3/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/gfp_ce_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">482</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_2_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/Constraint1">
+    <sbol:displayId>Constraint1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Constraint"/>
+    <sbol:restriction rdf:resource="http://sbols.org/v3#meets"/>
+    <sbol:subject rdf:resource="http://sbolstandard.org/testfiles/composite_2_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent4"/>
+    <sbol:object rdf:resource="http://sbolstandard.org/testfiles/composite_2_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent8">
+    <sbol:displayId>SubComponent8</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/gfp_ce_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23100_ab_in_bb_part_extract_seq">
+    <sbol:displayId>j23100_ab_in_bb_part_extract_seq</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:elements>GGAGttgacggctagctcagtcctaggtacagtgctagcTACT</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_3_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb">
+    <sbol:displayId>composite_3_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb</sbol:displayId>
+    <sbol:name>composite_3_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb</sbol:name>
+    <prov:wasGeneratedBy rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan"/>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000804"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/composite_3_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb_seq"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_3_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent1"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_3_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent2"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_3_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent3"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_3_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent4"/>
+    <sbol:hasFeature rdf:resource="http://sbolstandard.org/testfiles/composite_3_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent5"/>
+    <sbol:hasConstraint rdf:resource="http://sbolstandard.org/testfiles/composite_3_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/Constraint1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/rfp_ce_in_bb_part_extract/SequenceFeature1/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:order>
+    <sbol:hasSequence rdf:resource="aatggcttcctccgaagatgttatcaaagagttcatgcgtttcaaagttcgtatggaaggttccgttaacggtcacgagttcgaaatcgaaggtgaaggtgaaggtcgtccgtacgaaggtacccagaccgctaaactgaaagttaccaaaggtggtccgctgccgttcgcttgggacatcctgtccccgcagttccagtacggttccaaagcttacgttaaacacccggctgacatcccggactacctgaaactgtccttcccggaaggtttcaaatgggaacgtgttatgaacttcgaggacggtggtgttgttaccgttacccaggactcctccctgcaagacggtgagttcatctacaaagttaaactgcgtggtaccaacttcccgtccgacggtccggttatgcagaaaaaaaccatgggttgggaagcttccaccgaacgtatgtacccggaagatggtgctctgaaaggtgaaatcaaaatgcgtctgaaactgaaagacggtggtcactacgacgctgaagttaaaaccacctacatggctaaaaaaccggttcagctgccgggtgcttacaaaaccgacatcaaactggacatcacctcccacaacgaggactacaccatcgttgaacagtacgaacgtgctgaaggtcgtcactccaccggtgcttaatgagctt"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/gfp_ce_in_bb_seq">
+    <sbol:displayId>gfp_ce_in_bb_seq</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:elements>tcattgccatacgaaattccggatgagcattcatcaggcgggcaagaatgtgaataaaggccggataaaacttgtgcttatttttctttacggtctttaaaaaggccgtaatatccagctgaacggtctggttataggtacattgagcaactgactgaaatgcctcaaaatgttctttacgatgccattgggatatatcaacggtggtatatccagtgatttttttctccattttagcttccttagctcctgaaaatctcgataactcaaaaaatacgcccggtagtgatcttatttcattatggtgaaagttggaacctcttacgtgcccgatcaactcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcggtctcgaatggtgagcaagggcgaggagctgttcaccggggtggtgcccatcctggtcgagctggacggcgacgtaaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagttcatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccttcagctacggcgtgcagtgcttcagccgctaccccgaccacatgaagcagcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcatcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaactacaacagccacaacgtctatatcatggccgacaagcagaagaacggcatcaaggtgaacttcaagatccgccacaacatcgaggacggcagcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacaaccactacctgagcacccagtccgccctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttcgtgaccgccgccgggatcactcacggcatggacgagctgtacaagtaagcttCGAGaccctgcagtccggcaaaaaagggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccacaggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagctcgaggcttggattctcaccaataaaaaacgcccggcggcaaccgagcgttctgaacaaatccagatggagttctgaggtcattactggatctatcaacaggagtccaagcgagctcgatatcaaattacgccccgccctgccactcatcgcagtactgttgtaattcattaagcattctgccgacatggaagccatcacaaacggcatgatgaacctgaatcgccagcggcatcagcaccttgtcgccttgcgtataatatttgcccatggtgaaaacgggggcgaagaagttgtccatattggccacgtttaaatcaaaactggtgaaactcacccagggattggctgagacgaaaaacatattctcaataaaccctttagggaaataggccaggttttcaccgtaacacgccacatcttgcgaatatatgtgtagaaactgccggaaatcgtcgtggtattcactccagagcgatgaaaacgtttcagtttgctcatggaaaacggtgtaacaagggtgaacactatcccatatcaccagctcaccgtct</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/pOdd_bb/Constraint1">
+    <sbol:displayId>Constraint1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Constraint"/>
+    <sbol:restriction rdf:resource="http://sbols.org/v3#meets"/>
+    <sbol:subject rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb/SequenceFeature1"/>
+    <sbol:object rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb/SequenceFeature3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0034_bc_in_bb/SequenceFeature1/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">479</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">499</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0034_bc_in_bb_part_extract/SequenceFeature1/Range2">
+    <sbol:displayId>Range2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</sbol:order>
+    <sbol:hasSequence rdf:resource="TACTagagaaagaggagaaatactaaatg"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_2_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent5">
+    <sbol:displayId>SubComponent5</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/gfp_ce_in_bb/SequenceFeature2/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/gfp_ce_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">479</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">483</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0034_bc_in_bb_part_extract/SequenceFeature1">
+    <sbol:displayId>SequenceFeature1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000366"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb_part_extract/SequenceFeature1/Range1"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb_part_extract/SequenceFeature1/Range2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0034_bc_in_bb_seq">
+    <sbol:displayId>b0034_bc_in_bb_seq</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:elements>tcattgccatacgaaattccggatgagcattcatcaggcgggcaagaatgtgaataaaggccggataaaacttgtgcttatttttctttacggtctttaaaaaggccgtaatatccagctgaacggtctggttataggtacattgagcaactgactgaaatgcctcaaaatgttctttacgatgccattgggatatatcaacggtggtatatccagtgatttttttctccattttagcttccttagctcctgaaaatctcgataactcaaaaaatacgcccggtagtgatcttatttcattatggtgaaagttggaacctcttacgtgcccgatcaactcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcggtctcgTACTagagaaagaggagaaatactaaatgCGAGaccctgcagtccggcaaaaaagggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccacaggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagctcgaggcttggattctcaccaataaaaaacgcccggcggcaaccgagcgttctgaacaaatccagatggagttctgaggtcattactggatctatcaacaggagtccaagcgagctcgatatcaaattacgccccgccctgccactcatcgcagtactgttgtaattcattaagcattctgccgacatggaagccatcacaaacggcatgatgaacctgaatcgccagcggcatcagcaccttgtcgccttgcgtataatatttgcccatggtgaaaacgggggcgaagaagttgtccatattggccacgtttaaatcaaaactggtgaaactcacccagggattggctgagacgaaaaacatattctcaataaaccctttagggaaataggccaggttttcaccgtaacacgccacatcttgcgaatatatgtgtagaaactgccggaaatcgtcgtggtattcactccagagcgatgaaaacgtttcagtttgctcatggaaaacggtgtaacaagggtgaacactatcccatatcaccagctcaccgtct</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent11">
+    <sbol:displayId>SubComponent11</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/cfp_ce_in_bb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23101_ab_in_bb/SequenceFeature2">
+    <sbol:displayId>SequenceFeature2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000366"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb/SequenceFeature2/Range1"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb/SequenceFeature2/Range2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/gfp_ce_in_bb_part_extract/SequenceFeature1">
+    <sbol:displayId>SequenceFeature1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000366"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/gfp_ce_in_bb_part_extract/SequenceFeature1/Range1"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/gfp_ce_in_bb_part_extract/SequenceFeature1/Range2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction2/Participation2">
+    <sbol:displayId>Participation2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Participation"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000010"/>
+    <sbol:participant rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_5_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent1">
+    <sbol:displayId>SubComponent1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb_backbone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction5/Participation1">
+    <sbol:displayId>Participation1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Participation"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000019"/>
+    <sbol:participant rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/ExternallyDefined1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction8/Participation1">
+    <sbol:displayId>Participation1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Participation"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000019"/>
+    <sbol:participant rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/ExternallyDefined1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0015_ef_in_bb/SequenceFeature2">
+    <sbol:displayId>SequenceFeature2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000366"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb/SequenceFeature2/Range1"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb/SequenceFeature2/Range2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction5/Participation3">
+    <sbol:displayId>Participation3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Participation"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000011"/>
+    <sbol:participant rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23100_ab_in_bb/SequenceFeature2/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">479</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">483</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction6/Participation2">
+    <sbol:displayId>Participation2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Participation"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000010"/>
+    <sbol:participant rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23100_ab_in_bb_part_extract/SequenceFeature1/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:order>
+    <sbol:hasSequence rdf:resource="GGAGttgacggctagctcagtcctaggtacagtgctagcTACT"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0034_bc_in_bb/Constraint1">
+    <sbol:displayId>Constraint1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Constraint"/>
+    <sbol:restriction rdf:resource="http://sbols.org/v3#meets"/>
+    <sbol:subject rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb/SequenceFeature1"/>
+    <sbol:object rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb/SequenceFeature3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_3_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent3">
+    <sbol:displayId>SubComponent3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/pOdd_bb_backbone_seq">
+    <sbol:displayId>pOdd_bb_backbone_seq</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:elements>cgctgcatgaagagcctgcagtccggcaaaaaagggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccacaggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagctcgagtcccgtcaagtcagcgtaatgctctgccagtgttacaaccaattaaccaattctgattagaaaaactcatcgagcatcaaatgaaactgcaatttattcatatcaggattatcaataccatatttttgaaaaagccgtttctgtaatgaaggagaaaactcaccgaggcagttccataggatggcaagatcctggtatcggtctgcgattccgactcgtccaacatcaatacaacctattaatttcccctcgtcaaaaataaggttatcaagtgagaaatcaccatgagtgacgactgaatccggtgagaatggcaaaagcttatgcatttctttccagacttgttcaacaggccagccattacgctcgtcatcaaaatcactcgcatcaaccaaaccgttattcattcgtgattgcgcctgagcgagacgaaatacgcgatcgctgttaaaaggacaattacaaacaggaatcgaatgcaaccggcgcaggaacactgccagcgcatcaacaatattttcacctgaatcaggatattcttctaatacctggaatgctgttttcccggggatcgcagtggtgagtaaccatgcatcatcaggagtacggataaaatgcttgatggtcggaagaggcataaattccgtcagccagtttagtctgaccatctcatctgtaacatcattggcaacgctacctttgccatgtttcagaaacaactctggcgcatcgggcttcccatacaatcgatagattgtcgcacctgattgcccgacattatcgcgagcccatttatacccatataaatcagcatccatgttggaatttaatcgcggcctggagcaagacgtttcccgttgaatatggctcataacaccccttgtattactgtttatgtaagcagacagttttattgttcatgatgatatatttttatcttgtgcaatgtaacatcagagattttgagacacaacgtggctttgttgaataaatcgaacttttgctgagttgaaggatcagctcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcgctcttcaatgggag</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/cfp_ce_in_bb_part_extract/SequenceFeature1">
+    <sbol:displayId>SequenceFeature1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000366"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/cfp_ce_in_bb_part_extract/SequenceFeature1/Range1"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/cfp_ce_in_bb_part_extract/SequenceFeature1/Range2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_6_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent2">
+    <sbol:displayId>SubComponent2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent3">
+    <sbol:displayId>SubComponent3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_2_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent1">
+    <sbol:displayId>SubComponent1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb_backbone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23101_ab_in_bb_part_extract/SequenceFeature1">
+    <sbol:displayId>SequenceFeature1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000366"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb_part_extract/SequenceFeature1/Range1"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb_part_extract/SequenceFeature1/Range2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_1_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent2">
+    <sbol:displayId>SubComponent2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/gfp_ce_in_bb/SequenceFeature3/Range2">
+    <sbol:displayId>Range2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/gfp_ce_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1191</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2777</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_1_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent4">
+    <sbol:displayId>SubComponent4</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/gfp_ce_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction5">
+    <sbol:displayId>Interaction5</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Interaction"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000178"/>
+    <sbol:hasParticipation rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction5/Participation1"/>
+    <sbol:hasParticipation rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction5/Participation2"/>
+    <sbol:hasParticipation rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction5/Participation3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23100_ab_in_bb/SequenceFeature3/Range2">
+    <sbol:displayId>Range2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">509</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2095</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23100_ab_in_bb/SequenceFeature1">
+    <sbol:displayId>SequenceFeature1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000167"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000915"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb/SequenceFeature1/Range1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction8/Participation2">
+    <sbol:displayId>Participation2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Participation"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000010"/>
+    <sbol:participant rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/cfp_ce_in_bb_part_extract/SubComponent1">
+    <sbol:displayId>SubComponent1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/cfp_ce_in_bb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_3_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent5">
+    <sbol:displayId>SubComponent5</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/cfp_ce_in_bb/SequenceFeature3">
+    <sbol:displayId>SequenceFeature3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/cfp_ce_in_bb/SequenceFeature3/Range1"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/cfp_ce_in_bb/SequenceFeature3/Range2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/pOdd_bb/SequenceFeature1/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">680</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1770</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23101_ab_in_bb/SequenceFeature3/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">482</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction7/Participation1">
+    <sbol:displayId>Participation1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Participation"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000019"/>
+    <sbol:participant rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/ExternallyDefined1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0015_ef_in_bb_part_extract/SubComponent1">
+    <sbol:displayId>SubComponent1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_4_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent5">
+    <sbol:displayId>SubComponent5</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction4/Participation1">
+    <sbol:displayId>Participation1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Participation"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000019"/>
+    <sbol:participant rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/ExternallyDefined1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent4">
+    <sbol:displayId>SubComponent4</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_6_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent1">
+    <sbol:displayId>SubComponent1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb_backbone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/pOdd_bb/SequenceFeature3">
+    <sbol:displayId>SequenceFeature3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb/SequenceFeature3/Range1"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb/SequenceFeature3/Range2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23101_ab_in_bb/Constraint1">
+    <sbol:displayId>Constraint1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Constraint"/>
+    <sbol:restriction rdf:resource="http://sbols.org/v3#meets"/>
+    <sbol:subject rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb/SequenceFeature1"/>
+    <sbol:object rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb/SequenceFeature3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction5/Participation2">
+    <sbol:displayId>Participation2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Participation"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000010"/>
+    <sbol:participant rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23101_ab_in_bb/SequenceFeature1">
+    <sbol:displayId>SequenceFeature1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000167"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000915"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb/SequenceFeature1/Range1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/pOdd_bb_backbone/SequenceFeature1/Range2">
+    <sbol:displayId>Range2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</sbol:order>
+    <sbol:hasSequence rdf:resource="cgctgcatgaagagcctgcagtccggcaaaaaagggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccacaggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagctcgagtcccgtcaagtcagcgtaatgctctgccagtgttacaaccaattaaccaattctgattagaaaaactcatcgagcatcaaatgaaactgcaatttattcatatcaggattatcaataccatatttttgaaaaagccgtttctgtaatgaaggagaaaactcaccgaggcagttccataggatggcaagatcctggtatcggtctgcgattccgactcgtccaacatcaatacaacctattaatttcccctcgtcaaaaataaggttatcaagtgagaaatcaccatgagtgacgactgaatccggtgagaatggcaaaagcttatgcatttctttccagacttgttcaacaggccagccattacgctcgtcatcaaaatcactcgcatcaaccaaaccgttattcattcgtgattgcgcctgagcgagacgaaatacgcgatcgctgttaaaaggacaattacaaacaggaatcgaatgcaaccggcgcaggaacactgccagcgcatcaacaatattttcacctgaatcaggatattcttctaatacctggaatgctgttttcccggggatcgcagtggtgagtaaccatgcatcatcaggagtacggataaaatgcttgatggtcggaagaggcataaattccgtcagccagtttagtctgaccatctcatctgtaacatcattggcaacgctacctttgccatgtttcagaaacaactctggcgcatcgggcttcccatacaatcgatagattgtcgcacctgattgcccgacattatcgcgagcccatttatacccatataaatcagcatccatgttggaatttaatcgcggcctggagcaagacgtttcccgttgaatatggctcataacaccccttgtattactgtttatgtaagcagacagttttattgttcatgatgatatatttttatcttgtgcaatgtaacatcagagattttgagacacaacgtggctttgttgaataaatcgaacttttgctgagttgaaggatcagctcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcgctcttcaatgggag"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2200</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2203</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_1_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent3">
+    <sbol:displayId>SubComponent3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_4_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent2">
+    <sbol:displayId>SubComponent2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/cfp_ce_in_bb_part_extract/SequenceFeature1/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:order>
+    <sbol:hasSequence rdf:resource="aatggtgagcaagggcgaggagctgttcaccggggtggtgcccatcctggtcgagctggacggcgacgtgaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagttcatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccctgacctggggcgtgcagtgcttcagccgctaccccgaccacatgaagcagcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcatcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaactacatcagccacaacgtctatatcaccgccgacaagcagaagaacggcatcaaggccaacttcaagatccgccacaacatcgaggacggcagcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacaaccactacctgagcacccagtccgccctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttcgtgaccgccgccgggatcactctcggcatggacgagctgtacaagtaataagctt"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_5_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent4">
+    <sbol:displayId>SubComponent4</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/rfp_ce_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23100_ab_in_bb/SequenceFeature2/Range2">
+    <sbol:displayId>Range2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">509</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">513</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23100_ab_in_bb_part_extract/SequenceFeature1/Range2">
+    <sbol:displayId>Range2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</sbol:order>
+    <sbol:hasSequence rdf:resource="GGAGttgacggctagctcagtcctaggtacagtgctagcTACT"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/rfp_ce_in_bb/SequenceFeature3">
+    <sbol:displayId>SequenceFeature3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/rfp_ce_in_bb/SequenceFeature3/Range1"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/rfp_ce_in_bb/SequenceFeature3/Range2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/gfp_ce_in_bb/SequenceFeature2">
+    <sbol:displayId>SequenceFeature2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000366"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/gfp_ce_in_bb/SequenceFeature2/Range1"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/gfp_ce_in_bb/SequenceFeature2/Range2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_1_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb_seq">
+    <sbol:displayId>composite_1_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb_seq</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:elements>cgctgcatgaagagcctgcagtccggcaaaaaagggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccacaggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagctcgagtcccgtcaagtcagcgtaatgctctgccagtgttacaaccaattaaccaattctgattagaaaaactcatcgagcatcaaatgaaactgcaatttattcatatcaggattatcaataccatatttttgaaaaagccgtttctgtaatgaaggagaaaactcaccgaggcagttccataggatggcaagatcctggtatcggtctgcgattccgactcgtccaacatcaatacaacctattaatttcccctcgtcaaaaataaggttatcaagtgagaaatcaccatgagtgacgactgaatccggtgagaatggcaaaagcttatgcatttctttccagacttgttcaacaggccagccattacgctcgtcatcaaaatcactcgcatcaaccaaaccgttattcattcgtgattgcgcctgagcgagacgaaatacgcgatcgctgttaaaaggacaattacaaacaggaatcgaatgcaaccggcgcaggaacactgccagcgcatcaacaatattttcacctgaatcaggatattcttctaatacctggaatgctgttttcccggggatcgcagtggtgagtaaccatgcatcatcaggagtacggataaaatgcttgatggtcggaagaggcataaattccgtcagccagtttagtctgaccatctcatctgtaacatcattggcaacgctacctttgccatgtttcagaaacaactctggcgcatcgggcttcccatacaatcgatagattgtcgcacctgattgcccgacattatcgcgagcccatttatacccatataaatcagcatccatgttggaatttaatcgcggcctggagcaagacgtttcccgttgaatatggctcataacaccccttgtattactgtttatgtaagcagacagttttattgttcatgatgatatatttttatcttgtgcaatgtaacatcagagattttgagacacaacgtggctttgttgaataaatcgaacttttgctgagttgaaggatcagctcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcgctcttcaatgGGAGttgacggctagctcagtcctaggtacagtgctagcTACTagagaaagaggagaaatactaaatggtgagcaagggcgaggagctgttcaccggggtggtgcccatcctggtcgagctggacggcgacgtaaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagttcatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccttcagctacggcgtgcagtgcttcagccgctaccccgaccacatgaagcagcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcatcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaactacaacagccacaacgtctatatcatggccgacaagcagaagaacggcatcaaggtgaacttcaagatccgccacaacatcgaggacggcagcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacaaccactacctgagcacccagtccgccctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttcgtgaccgccgccgggatcactcacggcatggacgagctgtacaagtaaGCTTccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/cfp_ce_in_bb_seq">
+    <sbol:displayId>cfp_ce_in_bb_seq</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="http://sbolstandard.org/testfiles"/>
+    <sbol:elements>tcattgccatacgaaattccggatgagcattcatcaggcgggcaagaatgtgaataaaggccggataaaacttgtgcttatttttctttacggtctttaaaaaggccgtaatatccagctgaacggtctggttataggtacattgagcaactgactgaaatgcctcaaaatgttctttacgatgccattgggatatatcaacggtggtatatccagtgatttttttctccattttagcttccttagctcctgaaaatctcgataactcaaaaaatacgcccggtagtgatcttatttcattatggtgaaagttggaacctcttacgtgcccgatcaactcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcggtctcgaatggtgagcaagggcgaggagctgttcaccggggtggtgcccatcctggtcgagctggacggcgacgtgaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagttcatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccctgacctggggcgtgcagtgcttcagccgctaccccgaccacatgaagcagcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcatcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaactacatcagccacaacgtctatatcaccgccgacaagcagaagaacggcatcaaggccaacttcaagatccgccacaacatcgaggacggcagcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacaaccactacctgagcacccagtccgccctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttcgtgaccgccgccgggatcactctcggcatggacgagctgtacaagtaataagcttCGAGaccctgcagtccggcaaaaaagggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccacaggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagctcgaggcttggattctcaccaataaaaaacgcccggcggcaaccgagcgttctgaacaaatccagatggagttctgaggtcattactggatctatcaacaggagtccaagcgagctcgatatcaaattacgccccgccctgccactcatcgcagtactgttgtaattcattaagcattctgccgacatggaagccatcacaaacggcatgatgaacctgaatcgccagcggcatcagcaccttgtcgccttgcgtataatatttgcccatggtgaaaacgggggcgaagaagttgtccatattggccacgtttaaatcaaaactggtgaaactcacccagggattggctgagacgaaaaacatattctcaataaaccctttagggaaataggccaggttttcaccgtaacacgccacatcttgcgaatatatgtgtagaaactgccggaaatcgtcgtggtattcactccagagcgatgaaaacgtttcagtttgctcatggaaaacggtgtaacaagggtgaacactatcccatatcaccagctcaccgtct</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0015_ef_in_bb/SequenceFeature2/Range2">
+    <sbol:displayId>Range2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">642</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">646</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23101_ab_in_bb/SequenceFeature2/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/j23101_ab_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">479</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">483</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/pOdd_bb/SequenceFeature2">
+    <sbol:displayId>SequenceFeature2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000366"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb/SequenceFeature2/Range1"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb/SequenceFeature2/Range2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0034_bc_in_bb/SequenceFeature2">
+    <sbol:displayId>SequenceFeature2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000366"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb/SequenceFeature2/Range1"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb/SequenceFeature2/Range2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/b0015_ef_in_bb/SequenceFeature3/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">521</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction4/Participation3">
+    <sbol:displayId>Participation3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Participation"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000011"/>
+    <sbol:participant rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_4_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/Constraint1">
+    <sbol:displayId>Constraint1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Constraint"/>
+    <sbol:restriction rdf:resource="http://sbols.org/v3#meets"/>
+    <sbol:subject rdf:resource="http://sbolstandard.org/testfiles/composite_4_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent4"/>
+    <sbol:object rdf:resource="http://sbolstandard.org/testfiles/composite_4_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent1">
+    <sbol:displayId>SubComponent1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction3/Participation2">
+    <sbol:displayId>Participation2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Participation"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000010"/>
+    <sbol:participant rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent7">
+    <sbol:displayId>SubComponent7</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/gfp_ce_in_bb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/cfp_ce_in_bb/SequenceFeature1/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/cfp_ce_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">479</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1198</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction3/Participation3">
+    <sbol:displayId>Participation3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Participation"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000011"/>
+    <sbol:participant rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_6_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_6_cfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent5">
+    <sbol:displayId>SubComponent5</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent5">
+    <sbol:displayId>SubComponent5</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/cfp_ce_in_bb/SequenceFeature2">
+    <sbol:displayId>SequenceFeature2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000366"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/cfp_ce_in_bb/SequenceFeature2/Range1"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/cfp_ce_in_bb/SequenceFeature2/Range2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/pOdd_bb_backbone/SequenceFeature1/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:order>
+    <sbol:hasSequence rdf:resource="cgctgcatgaagagcctgcagtccggcaaaaaagggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccacaggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagctcgagtcccgtcaagtcagcgtaatgctctgccagtgttacaaccaattaaccaattctgattagaaaaactcatcgagcatcaaatgaaactgcaatttattcatatcaggattatcaataccatatttttgaaaaagccgtttctgtaatgaaggagaaaactcaccgaggcagttccataggatggcaagatcctggtatcggtctgcgattccgactcgtccaacatcaatacaacctattaatttcccctcgtcaaaaataaggttatcaagtgagaaatcaccatgagtgacgactgaatccggtgagaatggcaaaagcttatgcatttctttccagacttgttcaacaggccagccattacgctcgtcatcaaaatcactcgcatcaaccaaaccgttattcattcgtgattgcgcctgagcgagacgaaatacgcgatcgctgttaaaaggacaattacaaacaggaatcgaatgcaaccggcgcaggaacactgccagcgcatcaacaatattttcacctgaatcaggatattcttctaatacctggaatgctgttttcccggggatcgcagtggtgagtaaccatgcatcatcaggagtacggataaaatgcttgatggtcggaagaggcataaattccgtcagccagtttagtctgaccatctcatctgtaacatcattggcaacgctacctttgccatgtttcagaaacaactctggcgcatcgggcttcccatacaatcgatagattgtcgcacctgattgcccgacattatcgcgagcccatttatacccatataaatcagcatccatgttggaatttaatcgcggcctggagcaagacgtttcccgttgaatatggctcataacaccccttgtattactgtttatgtaagcagacagttttattgttcatgatgatatatttttatcttgtgcaatgtaacatcagagattttgagacacaacgtggctttgttgaataaatcgaacttttgctgagttgaaggatcagctcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcgctcttcaatgggag"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_1_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent1">
+    <sbol:displayId>SubComponent1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/pOdd_bb_backbone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction4/Participation2">
+    <sbol:displayId>Participation2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Participation"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000010"/>
+    <sbol:participant rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/rfp_ce_in_bb_part_extract/SequenceFeature1">
+    <sbol:displayId>SequenceFeature1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SequenceFeature"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000366"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/rfp_ce_in_bb_part_extract/SequenceFeature1/Range1"/>
+    <sbol:hasLocation rdf:resource="http://sbolstandard.org/testfiles/rfp_ce_in_bb_part_extract/SequenceFeature1/Range2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_4_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent4">
+    <sbol:displayId>SubComponent4</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/gfp_ce_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_1_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent5">
+    <sbol:displayId>SubComponent5</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_4_part_8_part_2_j23101_ab_in_bb_part_3_b0034_bc_in_bb_part_4_gfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent3">
+    <sbol:displayId>SubComponent3</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/j23100_ab_in_bb/SequenceFeature3/Range1">
+    <sbol:displayId>Range1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Range"/>
+    <sbol:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</sbol:order>
+    <sbol:hasSequence rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb_seq"/>
+    <sbol:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sbol:start>
+    <sbol:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">482</sbol:end>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/composite_2_part_8_part_1_j23100_ab_in_bb_part_3_b0034_bc_in_bb_part_5_rfp_ce_in_bb_part_7_b0015_ef_in_bb/SubComponent2">
+    <sbol:displayId>SubComponent2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/j23100_ab_in_bb_part_extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent13">
+    <sbol:displayId>SubComponent13</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/b0015_ef_in_bb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/Interaction6/Participation1">
+    <sbol:displayId>Participation1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Participation"/>
+    <sbol:role rdf:resource="https://identifiers.org/SBO:0000019"/>
+    <sbol:participant rdf:resource="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/ExternallyDefined1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/gfp_ce_in_bb_part_extract/SubComponent1">
+    <sbol:displayId>SubComponent1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/gfp_ce_in_bb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sbolstandard.org/testfiles/combinatorial_rgb_transcriptional_units_assembly_plan/SubComponent6">
+    <sbol:displayId>SubComponent6</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#SubComponent"/>
+    <sbol:instanceOf rdf:resource="http://sbolstandard.org/testfiles/b0034_bc_in_bb_part_extract"/>
+  </rdf:Description>
+</rdf:RDF>
